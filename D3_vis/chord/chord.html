@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+<body>
+
+<div class="details">
+             <!-- <graph-title>Chord Graph of Tags</graph-title> -->
+             <!-- <graph-subtitle>Courses that connect two tags </graph-subtitle> -->
+             <div class='t1'>Chord Graph of Co-occuring Tags </div>
+
+      <div class='t2'>tags: subjects/skills</div>
+      <div class='t3'>Arc width represents number of courses having both the tags. Place mouth in the arc to see the exact number. Place mouth in the legend to see the hottest courses. </div>
+<!-- <div class="graph-title">Themeriver of the Development of Six Subjects</div> -->
+
+<!-- <div id="yearbuttons">
+              <button id="foursix" class="current">2004-2006</button>
+              <button id="sevennine" class="">2007-2009</button>
+              <button id="tentwelve" class="">2010-2012</button>
+              <button id="thirteenfiveteen" class="">2013-2015</button>
+</div> -->
+      <!--This script is to highlight each year button while on it-->
+  <!-- <script type="text/javascript">
+                         $('#yearbuttons button').on('click', function(){
+                              $('button.current').removeClass('current');
+                              $(this).addClass('current');
+                         }); -->
+  </script>
+<!--The data comes from FAO Yearbooks on fisheries http://www.fao.org/fishery/publications/yearbooks/en-->
+<!--Created by Luz K. Molina, www.databayou.com-->
+    <div id="legend">
+
+      <table class="table1">
+                <tr>
+          <td bgcolor="" width="5%">
+                    </td>
+                    <td width="95%"><h3>Tags</h3>
+                     </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B1CBFA" width="10%">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Probability & Statistics</a>
+                        <table class="table2">
+                             <tr>
+                                <td><h3>Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td width="85%">Foundations: Data,Data,Everywhere</br>Introduction to Statistics</br>What is Data Science?</td>
+                            </tr>
+                         </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#FCD8D4">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Machine Learning</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3>Hottest Courses</h3></td>
+                            </tr>
+                            <tr>  <td>Machine Learning</br>Neural Networks and Deep Learning</br>Introduction to Machine Learning in Production</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#b3e2cd">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">General Statistics</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3>Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Introduction to Statistics</br>Process Data from Dirty to Clean</br>Data Analysis with Python</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#7874F2">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Data Analysis</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3>Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Foundations: Data,Data,Everywhere </br>Ask Questions to Make Data-Driven Decisions </br>Introduction to Statistics</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#F4EEFF">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Statistical Programming</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Foundations: Data,Data,Everywhere</br>Prepare Data for Exploration</br>SQL for Data Science</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#d9f0d3">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Data Management</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Ask Questions to Make Data-Driven Decisions </br>Introduction to Statistics</br>Prepare Data for Exploration</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#A6B1E1">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Computer Programming</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Neural Networks and Deep Learning</br>Prepare Data for Exploration</br>Tools for Data Science</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#f6e8c3">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Mathematics</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Python for Data Science, AI & Development</br>Natural Language Processing</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#93B5C6">
+                    </td></td>
+                    <td><a class="two" id="NA" href = "#">Theoretical Computer Science</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Prepare Data for Exploration</br>Python for Data Science, AI & Development</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#C9CCD5">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Analysis</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Foundations: Data,Data,Everywhere</br>Ask Questions to Make Data-Driven Decisions</br>Introduction to Statistics</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#c7e9b4">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Python Programming</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Neural Network and Deep Learning</br>Tools for Data Science</br>Python for Data Science, AI & Development</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#FFE3E3">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Business Analysis</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Foundations: Data,Data,Everywhere</br>Ask Questions to Make Data-Driven Decisions</br>Introduction to Data Analytics</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#3690c0">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Data Visualization</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Foundations: Data,Data,Everywhere</br>Share Data Through the Art of Visualization</br>Data Analysis with R Programming</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#F9CF93">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Machine Learning Algorithms</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Neural Networks and Deep Learning</br>Introduction to Machine Learning in Production</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#AEE1E1">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Big Data</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Ask Questions to Make Data-Driven Decisions</br>Introduction to Statistics</br> Sequence Models</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#fde0ef">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Algorithms</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Neural Networks and Deep Learning</br>Analyze Data to Answer Questions</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#CDF0EA">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Deep Learning</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Neural Networks and Deep Learning</br>Convolutional Neural Networks</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#BEAEE2">
+                    </td>
+                     <td><a class="two" id="NA" href = "#">Regression</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Neural Networks and Deep Learning</br>Introduction to Statistics</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#F5C6AA">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Databases</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Foundations: Data,Data,Everywhere</br>Prepare Data for Exploration</br>SQL for Data Science</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#F1D4D4">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Applied Machine Learning</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Machine Learning</br>Neural Networks and Deep Learning</br>Structuring Machine Learning Projects</td>
+                            </tr>
+                        </table>
+                     </td>
+        </tr>
+                <tr>
+          <td bgcolor="#AC8DAF">
+                    </td>
+                    <td><a class="two" id="NA" href = "#">Modeling</a>
+                         <table class="table2">
+                            <tr>
+                                <td><h3> Hottest Courses</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Introduction to Machine Learning in Production</br>Sequence Models</br>Data Analysis with Python</td>
+                            </tr>
+                        </table>
+                     </td>
+                </tr>
+             </table>
+         </div>
+
+</div>
+
+  <div id="chart_placeholder"></div>
+    <script type="text/javascript" src="chord.js"></script>
+
+
+</body>
+</html>

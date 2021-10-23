@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript", src = "d3.v4.js"> </script>
+  <script type="text/javascript", src = "b3.js"> </script>
+  <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+  <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+  <style>
+  body {
+  background-color: #eee;
+  }
+
+  svg {
+    background-color: #fff;
+  }
+
+  rect {
+    /* stroke-width: 0px; */
+    cursor: pointer;
+  }
+
+  .graph-title {
+    font-family: Roboto, sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #333;
+  }
+
+  .graph-subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #555;
+  }
+
+  text.scales {
+    font-family: Roboto, sans-serif;
+    font-size: 0.75em;
+    font-weight: 300;
+  }
+
+  .axis-y {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: black;
+  }
+  .axis text {
+    font-family: Roboto, sans-serif;
+    font-size: 0.7em;
+    font-weight: 100;
+    color: black;
+  }
+
+  .axis path, .axis line {
+    fill: none;
+    stroke: #111;
+    shape-rendering: crispEdges;
+  }
+
+  .axislabel{
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    font-weight: 550;
+  }
+
+  .card {
+    background-color: white;
+    margin: 15px auto;
+    padding: 0px;
+    width: 1250px;
+    height: 670px;
+    text-align: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .tooltip {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 3px 5px 3px 5px;
+    font: 1em sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: auto;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    background-color: black;
+  }
+
+  .year {
+    font-family: Roboto, sans-serif;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .value {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .course {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+    font-weight: normal;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .details {
+    font-family: Roboto, sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px;
+  }
+  #subjectDropdown{
+    padding:10px;
+  }
+  
+  </style>
+</head>
+
+<body>
+<div class="card">
+  <div class="graph-title">Monthly Review of the Most Popular Courses</div>
+  <div class="graph-subtitle">2015 - 2021</div>
+  <div class="details">It is found that the explosion of the Covid-19 pandemic boosts the reviews the courses receive generally.<br>The number of reviews does not include the likes those reviews receive.</div>
+  <div id="subjectDropdown"></div>
+  <div id="chart"></div>
+</div>
+
+
+<script>
+  var dataset;
+  // var margin = {top:40, right:50, bottom:70, left:50};
+  var margin = {top:5, right:20, bottom:200, left:180};
+  var width = 1200 - margin.left - margin.right;
+  var height = 480 - margin.top - margin.bottom;
+  var legendElementWidth = 35;
+
+  var axisYLabelX = -65;
+  var axisYLabelY = height / 2;
+
+  var axisXLabelX = width / 2;
+  var axisXLabelY = height + 45;
+  
+  // load data
+  d3v4.json("reviews.json", function(error, data) {
+    data.forEach(function(d) {
+        d.subject = d.subject;
+        d.course = d.course;
+        d.timeslot = d.timeslot;
+        d.value = d.value;
+    });
+    dataset = data;
+
+    // group data by subject
+    var nest = d3v4.nest()
+      .key(function(d) { return d.subject; })
+      .entries(dataset);
+
+    // array of subjects in the data
+    var subjects = nest.map(function(d) { return d.key; });
+
+    var currentSubjectIndex = 0;
+
+    // create subject dropdown menu
+    var subjectMenu = d3v4.select("#subjectDropdown");
+    subjectMenu
+      .append("select")
+      .attr("id", "subjectMenu")
+      .selectAll("option")
+        .data(subjects)
+        .enter()
+        .append("option")
+        .attr("value", function(d, i) { return i; })
+        .text(function(d) { return d; });
+    
+    
+    // function to create the initial heatmap
+    var drawHeatmap = function(subject) {
+
+      // filter the data to return object of subject of interest
+      var selectSubject = nest.find(function(d) {
+        return d.key == subject;
+      });
+
+      var courses = selectSubject.values.map(function(d) { return d.course; });
+      courses = Array.from(new Set(courses));
+      var times = selectSubject.values.map(function(d) { return d.timeslot; });
+      times = Array.from(new Set(times));
+      times.sort();
+      timesl = d3v4.range(Number(d3v4.min(times).slice(0,4)), Number(d3v4.max(times).slice(0,4)), 1);
+      var vals = selectSubject.values.map(function(d) { return d.value; });
+
+
+      // linear colour scale
+      // colors =  ["#045A8D", "#2B8CBE", "#74A9CF", "#A6BDDB", "#D0D1E6", "#F1EEF6"].reverse();
+      var colors = colorbrewer["PuBu"][9];
+      // var colors = colorbrewer["Blues"][9];
+      // var Purples = ["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"];
+      // var Blues = ["#f7fbff","#deebf7","#c6dbef","#9ecae1","#6baed6","#4292c6","#2171b5","#08519c","#08306b"];
+      var buckets = colors.length;
+      // var colors = ["#87cefa", "#86c6ef", "#85bde4", "#83b7d9", "#82afce", "#80a6c2", "#7e9fb8", "#7995aa", "#758b9e", "#708090"];
+      var ma = d3v4.max(vals), mi = d3v4.min(vals);
+
+      var colours = d3v4.scaleLinear()
+        .domain(d3v4.range(mi, ma, Math.round((ma-mi)/10)))
+        .range(colors);
+      
+      // ---------------------------------
+
+      var minDate = new Date(d3v4.min(times).slice(0,7));
+      var maxDate = new Date(d3v4.max(times).slice(0,7));
+
+      var gridWidth = width / times.length;
+      var gridHeight = height / courses.length;
+
+      var colorScale = b3.scale.quantile()
+                      .domain([mi, ma])
+                      .range(colors);
+      // ---------------------------------------------
+
+      // svg container
+      var svg = d3v4.select("#chart")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      
+      var div = d3v4.select("#chart").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+      var courseLabels = svg.selectAll(".courseLabel")
+                            .data(courses)
+                            .enter()
+                            .append("text")
+                            .text(function(d) { 
+                              if (d.length<=25) return d;
+                              else return d.slice(0,25)+"..."; })
+                            .attr("x", 0)
+                            .attr("y", function(d, i) { return (i+1) * gridHeight; })
+                            .style("text-anchor", "end")
+                            .attr("transform", "translate(-6," + gridHeight / 1.5 + ")")
+                            .attr("class", "axis-y");
+
+      var xScale = b3.time.scale()
+        .domain([minDate, maxDate])
+        .range([0, width-gridWidth]);
+        console.log(minDate);
+        console.log(maxDate);
+
+      var xAxis = b3.svg.axis()
+        .scale(xScale)
+        .orient("bottom")
+        .ticks(b3.time.years, 1);
+      
+      console.log(minDate);
+      console.log(maxDate);
+      console.log(xAxis);
+      console.log(xScale);
+
+      svg.append("g")
+        .attr("class", "axis axis-years")
+        .attr("transform", "translate("+gridWidth+", "+ Number((height + 1)+gridHeight) + ")")
+        .call(xAxis);
+
+      svg.append('g')
+        .attr('transform', 'translate(' + axisYLabelX + ', 7)')
+        .append('text')
+        .attr('text-anchor', 'middle')
+        .attr("class", "axislabel")
+        .text('Courses');
+
+      svg.append('g')
+        .attr('transform', 'translate(' + axisXLabelX + ', ' + Number(axisXLabelY+gridHeight) + ')')
+        .append('text')
+        .attr('text-anchor', 'middle')
+        .attr("class", "axislabel")
+        .text('Year');
+
+      var temps = svg.selectAll(".timeslot")
+        .data(selectSubject.values)
+        .enter()
+        .append("rect")
+        .attr("x", function(d) { return (times.findIndex(value=>value===d.timeslot)+1) * gridWidth; })
+        .attr("y", function(d) { return (courses.findIndex(value=>value===d.course)+1) * gridHeight; })
+        .attr("class", "month ordered")
+        .attr("width", gridWidth)
+        .attr("height", gridHeight)
+        .style("stroke", "white")
+        .style("stroke-opacity", 0.6)
+        // .style("fill", function(d) { return colours(d.value); })
+        // -----------------------no idea why
+        .style("fill", "white")
+        .on("mouseover", function(d) {
+          div.transition()
+            .duration(100)
+            .style("opacity", 0.8);
+          div.html("<span class='year'>" + d.timeslot + "</span><br>" +
+              "<span class='value'>" + d.value + " reviews" + "</span><br>" +
+              "<span class='course'>" + d.course + "</span>")
+            .style("left", (d3v4.event.pageX - 50) + "px")
+            .style("top", (d3v4.event.pageY - 75) + "px");
+        })
+        .on("mouseout", function(d) {
+          div.transition()
+            .duration(200)
+            .style("opacity", 0);
+        });
+
+        temps.transition().duration(1000)
+        .style("fill", function(d) {
+          return colorScale(d.value);
+        });
+
+      var X = (times.findIndex(value=>value.slice(0,7)==="2020-05")+1) * gridWidth;
+      svg.append('line')
+        .attr('stroke','black')
+        .attr('stroke-width', 1)
+        .style("stroke-dasharray","5,5")
+        .attr('x1', X)
+        .attr('y1', 0)
+        .attr('x2', X)
+        .attr('y2', height)
+        .attr('transform', 'translate(0,'+gridHeight+')');
+      svg.append('text')
+        .attr('x', X-80)
+        .attr('y', '0')
+        .attr('font-size','0.8em')
+        .attr("font-weight","600")
+        .attr("font-family","Roboto, sans-serif")
+        .attr("text-align","center")
+        .text('Global Outbreak of Covid-19')
+        .attr('transform', 'translate(0,7)');
+
+      var legend = svg.selectAll(".legend")
+        .data([0].concat(colorScale.quantiles()), function(d) {
+          return d;
+        }).enter().append("g")
+        .attr("class", "legend");
+
+      legend.append("rect")
+        .attr("x", function(d, i) {
+          return legendElementWidth * i + (width - legendElementWidth * buckets);
+        })
+        .attr("y", height +75)
+        .attr("width", legendElementWidth)
+        .attr("height", gridHeight / 2)
+        .style("fill", function(d, i) {
+          return colors[i];
+        });
+
+      legend.append("text")
+        .attr("class", "scales")
+        .text(function(d) {
+          return Math.floor(d);
+        })
+        .attr("x", function(d, i) {
+          return ((legendElementWidth * i) + Math.floor(legendElementWidth / 2) - 6 + (width - legendElementWidth * buckets));
+        })
+        .attr("y", height + gridHeight + 75);
+      }
+    drawHeatmap(subjects[currentSubjectIndex]);
+
+    var updateHeatmap2 = function(subject){
+      d3v4.select("#chart").select("svg").remove();
+      drawHeatmap(subjects[currentSubjectIndex]);
+    }
+
+    // run update function when dropdown selection changes
+    subjectMenu.on("change", function() {
+      // find which subject was selected from the dropdown
+      var selectedSubject = d3v4.select(this)
+        .select("select")
+        .property("value");
+      currentSubjectIndex = selectedSubject;
+      updateHeatmap2(subjects[currentSubjectIndex]);
+    });
+
+    d3v4.selectAll(".nav").on("click", function() {
+      if(d3v4.select(this).classed("left")) {
+        if(currentSubjectIndex == 0) {
+          currentSubjectIndex = subjects.length-1;
+        } else {
+          currentSubjectIndex--; 
+        }
+      } else if(d3v4.select(this).classed("right")) {
+        if(currentSubjectIndex == subjects.length-1) {
+          currentSubjectIndex = 0;
+        } else {
+          currentSubjectIndex++;  
+        }
+      }
+      d3v4.select("#subjectMenu").property("value", currentSubjectIndex)
+      updateHeatmap2(subjects[currentSubjectIndex]);
+    })
+  })
+</script>
+</body>

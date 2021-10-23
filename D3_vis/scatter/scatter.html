@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<!-- Example based on http://bl.ocks.org/mbostock/3887118 -->
+<!-- Tooltip example from http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html -->
+
+<style>
+body {
+  font: 14px Roboto;
+  text-align: center;
+
+}
+.graph-title {
+    font-family: Roboto, sans-serif;
+    font-size: 2.9em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #333;
+  }
+  .graph-subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 2.4em;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #555;
+  }
+  .details {
+    font-family: Roboto, sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px;
+  }
+.tooltip_en {
+    font-weight: bolder;
+  }
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+h1 {
+		text-align: center;
+		}
+
+		h2 {
+		text-align: left;
+		}
+</style>
+<body>
+
+  <div class="graph-title">Scatter Plot of Data Science Course Distribution</div>
+      <div class="graph-subtitle">Courses Available on October, 2021</div>
+      <div class="details">Variables include the basic features of a course: rate, difficulty level, enrollment number,review number and course length.
+        <br>Choose any two features and see the course distribution.</div>
+
+      <p><span><label for="x-axis"><span class='tooltip_en'>Select x-axis</span></label></span>
+      <select id="x-value">
+        <option value="rate">rate</option>
+        <!-- <option value="ratingscount">ratingscount</option> -->
+        <option value="level">difficulty level</option>
+        <option value="enrollment">enrollment</option>
+        <option value="review_num">review number</option>
+        <option value="required_hour">course length</option>
+      </select>
+<span><label for="y-axis"> <span class='tooltip_en'> Select y-axis</span></label></span>
+<select id="y-value">
+  <option value="enrollment">enrollment</option>
+  <option value="rate">rate</option>
+  <!-- <option value="ratingscount">ratingscount</option> -->
+  <option value="level">difficulty level</option>
+  <option value="review_num">review number</option>
+  <option value="required_hour">course length</option>
+</select>
+
+
+<button onclick="setGraph()">submit</button>
+
+<!-- <script src="d3.v3.min.js"></script>
+<script src="jquery-2.1.3.min.js"></script> -->
+<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script>
+
+function drawGraph(xText, yText) {
+	$('svg').remove();
+	var margin = {top: 10, right: 60, bottom: 60, left: 80},
+		width = 1360 - margin.left - margin.right,
+		height = 550 - margin.top - margin.bottom;
+
+	/*
+	 * value accessor - returns the value to encode for a given data object.
+	 * scale - maps value to a visual display encoding, such as a pixel position.
+	 * map function - maps from data value to display value
+	 * axis - sets up axis
+	 */
+
+	// setup x
+	var xValue = function(d) { return d[xText];}, // data -> value
+		xScale = d3.scale.linear().range([0, width]), // value -> display
+		xMap = function(d) { return xScale(xValue(d));}, // data -> display
+		xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+	// setup y
+	var yValue = function(d) { return d[yText];}, // data -> value
+		yScale = d3.scale.linear().range([height, 0]), // value -> display
+		yMap = function(d) { return yScale(yValue(d));}, // data -> display
+		yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+	// setup fill color
+	var cValue = function(d) { return d.Conf;},
+		color = d3.scale.category20();
+
+	// add the graph canvas to the body of the webpage
+	var svg = d3.select("body").append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+	  .append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	// add the tooltip area to the webpage
+	var tooltip = d3.select("body").append("div")
+		.attr("class", "tooltip")
+		.style("opacity", 0);
+
+	// load data
+	d3.csv("ds_whole_new.csv", function(error, data) {
+
+	  // change string (from CSV) into number format
+	  data.forEach(function(d) {
+		d[yText] = +d[yText];
+		d[xText] = +d[xText];
+	//console.log (d.School);
+	//console.dir (d);
+	  });
+
+	  // don't want dots overlapping axis, so add in buffer to data domain
+	  // xScale.domain([d3.min(data, xValue)-(d3.max(data, xValue)-d3.min(data, xValue))*0.01, d3.max(data, xValue)+(d3.max(data, xValue)-d3.min(data, xValue))*0.01]);
+	  // yScale.domain([d3.min(data, yValue)-(d3.max(data, yValue)-d3.min(data, yValue))*0.01, d3.max(data, yValue)+(d3.max(data, yValue)-d3.min(data, yValue))*0.01]);
+    xScale.domain([d3.min(data, xValue)-(d3.max(data, xValue)-d3.min(data, xValue))*0.05, d3.max(data, xValue)+(d3.max(data, xValue)-d3.min(data, xValue))*0.05]);
+    yScale.domain([d3.min(data, yValue)-(d3.max(data, yValue)-d3.min(data, yValue))*0.05, d3.max(data, yValue)+(d3.max(data, yValue)-d3.min(data, yValue))*0.05]);
+
+	// scales w/o extra padding
+	//  xScale.domain([d3.min(data, xValue), d3.max(data, xValue)]);
+	//  yScale.domain([d3.min(data, yValue), d3.max(data, yValue)]);
+
+	  // x-axis
+	  svg.append("g")
+		  .attr("class", "x axis")
+		  .attr("transform", "translate(0," + height + ")")
+		  .call(xAxis)
+		.append("text")
+		  .attr("class", "label")
+		  .attr("x", width/2)
+		  .attr("y", 50)
+      .attr("font-size",23)
+		  .style("text-anchor", "end")
+		  .text(xText);
+
+	  // y-axis
+	  svg.append("g")
+		  .attr("class", "y axis")
+		  .call(yAxis)
+		.append("text")
+		  .attr("class", "label")
+		  .attr("transform", "rotate(-90)")
+		  .attr("y", -60)
+      .attr("x", -240)
+      .attr("font-size",23)
+		  // .attr("dy", ".71em")
+		  .style("text-anchor", "end")
+		  .text(yText);
+
+	  // draw dots
+	  svg.selectAll(".dot")
+		  .data(data)
+		.enter().append("circle")
+		  .attr("class", "dot")
+		  .attr("r",5)//function(d) { return d.enrollment/20000;})
+      .attr("opacity",0.5)//function(d) { return d.review_num/d.enrollment*50;})
+		  .attr("cx", xMap)
+		  .attr("cy", yMap)
+      // .attr("color","#93B5C6")
+		  .style("fill","#A6BDDB")
+      .style("stroke","#A6BDDB")
+      // .filter(function(d){ return d.parent; })
+		  .on("mouseover", function(d) {
+			  tooltip.transition()
+				   .duration(100)
+				   .style("opacity", .9);
+			  tooltip.html(d["title"] + "<br/> " + d.institute +
+        // + "<br/>(" + xValue(d)
+				// + ", " + yValue(d) + ")"
+        "<span class='tooltip_en'>" +"<br/>" + xText + ":" + xValue(d)
+        + "<br/>" + yText + ":" + yValue(d) +"</span>"
+        //+ "<br/> " + "enrollment:" +d.enrollment
+      )
+				   .style("left", (d3.event.pageX + 15) + "px")
+				   .style("top", (d3.event.pageY -40) + "px");
+		  })
+		  .on("mouseout", function(d) {
+			  tooltip.transition()
+				   .duration(500)
+				   .style("opacity", 0);
+		  });
+	});
+}
+
+drawGraph('enrollment', 'rate');
+
+function setGraph() {
+	drawGraph($('#x-value').val(), $('#y-value').val());
+}
+</script>
+</body>
+</html>

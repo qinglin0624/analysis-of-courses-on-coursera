@@ -1,0 +1,81 @@
+[{
+        "date": "4/1854",
+        "enrollment": 1377811,
+        "review": 10569
+    },
+    {
+        "date": "5/1854",
+        "enrollment": 112563,
+        "review": 581
+    },
+    {
+        "date": "6/1854",
+        "enrollment": 771473,
+        "review": 5637
+    },
+    {
+        "date": "7/1854",
+        "enrollment": 342879,
+        "review": 2915
+    },
+    {
+        "date": "8/1854",
+        "enrollment": 326635,
+        "review": 2265
+    },
+    {
+        "date": "12/1854",
+        "enrollment": 226887,
+        "review": 1791
+    },
+    {
+        "date": "1/1855",
+        "enrollment": 946535,
+        "review": 7793
+    },
+    {
+        "date": "2/1855",
+        "enrollment": 1228142,
+        "review": 8656
+    },
+    {
+        "date": "3/1855",
+        "enrollment": 1001627,
+        "review": 6653
+    },
+    {
+        "date": "9/1854",
+        "enrollment": 827304,
+        "review": 6097
+    },
+    {
+        "date": "10/1854",
+        "enrollment": 251733,
+        "review": 1435
+    },
+    {
+        "date": "11/1854",
+        "enrollment": 501307,
+        "review": 4036
+    },
+    {
+        "date": "12/1854",
+        "enrollment": 226887,
+        "review": 1791
+    },
+    {
+        "date": "1/1855",
+        "enrollment": 251733,
+        "review": 1435
+    },
+    {
+        "date": "2/1855",
+        "enrollment": 501307,
+        "review": 4036
+    },
+    {
+        "date": "3/1855",
+        "enrollment": 226887,
+        "review": 1791
+    }
+]

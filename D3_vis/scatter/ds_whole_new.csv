@@ -1,0 +1,664 @@
+,title,institute,rate,ratingscount,level,enrollment,review_num,required_hour
+0,AI Applications in People Management,University of Pennsylvania,4.5,,0,,,10.0
+1,Einführung in die Datenanalyse mit Excel,Rice University,4.5,,0,,,17.0
+2,Dashboarding and Deployment,"University of California, Irvine",4.5,,0,,,9.0
+3,Data Science at Scale - Capstone Project,University of Washington,4.1,22,0,,,17.0
+4,Big Data Services: Capstone Project,Yandex,4.5,,3,1768,,3.0
+5,Serverless Machine Learning with Tensorflow on Google Cloud em Português Brasileiro,Google Cloud,4.4,13,2,,,14.0
+6,Feature Engineering em Português Brasileiro,Google Cloud,4.5,13,2,,,18.0
+7,Prepare for DP-203: Data Engineering on Microsoft Azure Exam,Microsoft,4.5,,2,,,5.0
+8,Operational Analytics with Microsoft Azure Synapse Analytics,Microsoft,4.5,,2,,,12.0
+9,Azure Data Lake Storage Gen2 and Data Streaming Solution,Microsoft,4.5,,2,,,9.0
+10,AI Strategy and Governance,University of Pennsylvania,4.5,,1,,,10.0
+11,Последовательные модели,DeepLearning.AI,4.5,,2,,,16.0
+12,Trabalho de conclusão de Ciência de Dados Aplicada,IBM,4.5,,2,,,47.0
+13,Business Intelligence con la Product Suite di Tableau,Università di Napoli Federico II,4.5,,3,,,25.0
+14,Заключительный курс по теме «Прикладная наука о данных»,IBM,4.5,,2,,,47.0
+15,Data Storytelling,"University of California, Irvine",4.5,,0,,,9.0
+16,Building Resilient Streaming Systems on GCP em Português Brasileiro,Google Cloud,4.1,15,2,,,10.0
+17,Art and Science of Machine Learning en Français,Google Cloud,4.5,,2,,,18.0
+18,Art and Science of Machine Learning 日本語版,Google Cloud,4.3,7,2,,,18.0
+19,كابستون علوم البيانات التطبيقية,IBM,4.5,,2,,,47.0
+20,مؤثرات عرض البيانات باستخدام لغة بايثون,IBM,4.5,,2,,,17.0
+21,Launching into Machine Learning em Português Brasileiro,Google Cloud,4.5,30,2,,6,20.0
+22,Serverless Machine Learning with Tensorflow on Google Cloud auf Deutsch,Google Cloud,4.5,,2,,,15.0
+23,منهجية علم البيانات,IBM,4.5,,1,,,10.0
+24,Améliorez les réseaux neuronaux profonds,DeepLearning.AI,4.5,,1,,,18.0
+25,Подготовка и анализ данных в Tableau,Moscow Institute of Physics and Technology,4.5,,3,,,5.0
+26,Sprachtechnologie in den Digital Humanities,University of Zurich,4.8,22,1,,,17.0
+27,Intro to TensorFlow em Português Brasileiro,Google Cloud,4.6,23,2,,,18.0
+28,Art and Science of Machine Learning em Português Brasileiro,Google Cloud,4.6,14,2,,,19.0
+29,TensorFlow を使った畳み込みニューラルネットワーク,DeepLearning.AI,4.5,,2,,,10.0
+30,Creación de aplicaciones de IA con las API de Watson,IBM,4.5,,2,,,19.0
+31,Visualização de dados com o Python,IBM,4.5,,2,,,17.0
+32,Structurer des projets d’apprentissage automatique,DeepLearning.AI,4.5,,1,,,5.0
+33,الحصول على البيانات وتنظيفها,Johns Hopkins University,4.5,,0,,,17.0
+34,Повышение эффективности глубоких нейросетей,DeepLearning.AI,4.5,,1,,,18.0
+35,تحليل البيانات الاستكشافية,Johns Hopkins University,4.5,,0,,,17.0
+36,تعزيز الشبكات العصبية : ضبط وتحسين مقياس فرط المعلمات,DeepLearning.AI,4.5,,1,,,18.0
+37,النماذج المتعاقبة,DeepLearning.AI,4.5,,2,,,16.0
+38,Exploring NCAA Data with BigQuery,Google Cloud,4.5,,1,,,45.0
+39,Modèles de séquence,DeepLearning.AI,4.5,,2,,,16.0
+40,Ein Crashkurs in Datenwissenschaft,Johns Hopkins University,4.5,,0,,,17.0
+41,Art and Science of Machine Learning en Español,Google Cloud,4.6,25,2,2210,10,20.0
+42,Линейные модели с дискретными предикторами,Saint Petersburg State University,4.5,,2,,,12.0
+43,Смешанные линейные модели,Saint Petersburg State University,4.5,,2,,,16.0
+44,Intro to TensorFlow 日本語版,Google Cloud,3.9,11,2,,,19.0
+45,Cours intensif sur la science des données,Johns Hopkins University,4.5,,0,,,17.0
+46,Быстрый старт с Tableau Desktop,Moscow Institute of Physics and Technology,4.5,,1,,,11.0
+47,Launching into Machine Learning en Français,Google Cloud,4.5,10,2,,3,20.0
+48,Обобщенные линейные модели,Saint Petersburg State University,4.5,,2,,,16.0
+49,Feature Engineering 日本語版,Google Cloud,4.4,9,2,,,18.0
+50,Структурирование проектов по машинному обучению,DeepLearning.AI,4.5,,1,,,5.0
+51,Data Storage in Microsoft Azure for Associate Developers,Microsoft,4.5,,2,,,16.0
+52,Сверточные нейронные сети,DeepLearning.AI,4.5,,2,,,20.0
+53,Proyecto Final de Analítica de Datos,IBM,4.5,,2,,,13.0
+54,Neuronale Netze und Deep Learning,DeepLearning.AI,4.5,,2,,,20.0
+55,Réseaux neuronaux convolutifs,DeepLearning.AI,4.5,,2,,,20.0
+56,Communicating Data Science Results,University of Washington,3.6,134,0,15438,37,8.0
+57,How Google does Machine Learning em Português Brasileiro,Google Cloud,4.8,72,2,,20,9.0
+58,How Google does Machine Learning en Français,Google Cloud,4.3,15,2,,,8.0
+59,Intro to TensorFlow en Français,Google Cloud,4.5,,2,,,19.0
+60,الشبكات العصبونية الالتفافية,DeepLearning.AI,4.5,,2,,,20.0
+61,Визуализация данных с помощью Python,IBM,4.5,,2,,,17.0
+62,قواعد البيانات وSQL (لغة الاستعلام البنيوية) لعلم البيانات,IBM,4.5,,1,,,14.0
+63,Recommender Systems Capstone,University of Minnesota,4.2,27,0,1683,,3.0
+64,هيكلة مشاريع التعلم الآلي,DeepLearning.AI,4.5,,1,,,5.0
+65,Mastering Software Development in R Capstone,Johns Hopkins University,4.0,41,2,1683,11,3.0
+66,Инструментальная фонетика: компьютерные методы сбора и анализа данных,HSE University,4.5,,0,,,17.0
+67,Intermediate Machine Learning: TensorFlow on Google Cloud,Google Cloud,4.5,,2,,,5.0
+68,ما علم البيانات؟,IBM,4.5,,1,,,10.0
+69,Feature Engineering en Español,Google Cloud,4.5,24,2,2386,8,18.0
+70,Metodologia de Ciência de Dados,IBM,4.5,,1,,,10.0
+71,Nursing Informatics Leadership Theory and Practice,University of Minnesota,4.7,35,1,1710,,19.0
+72,Natural Language Processing and Capstone Assignment,"University of California, Irvine",4.4,14,2,,,5.0
+73,‏SQL لعلوم البيانات,"University of California, Davis",4.5,,1,,,14.0
+74,Advanced Machine Learning: Machine Learning Infrastructure,Google Cloud,4.5,,3,,,5.0
+75,Машинное обучение на больших данных,HSE University,4.5,,2,,,48.0
+76,Data Mining Project,University of Illinois at Urbana-Champaign,4.6,38,0,5939,8,11.0
+77,Data Mining Project,University of Illinois at Urbana-Champaign,4.6,38,0,,,37.0
+78,Data Analysis and Interpretation Capstone,Wesleyan University,4.7,40,0,,,17.0
+79,Launching into Machine Learning en Español,Google Cloud,4.7,94,2,2907,23,20.0
+80,Launching into Machine Learning 日本語版,Google Cloud,4.4,49,2,,9,20.0
+81,Limpieza de datos para el procesamiento de lenguaje natural,Universidad Austral,4.5,,1,,,13.0
+82,Fundamentals of  CNNs and RNNs,Sungkyunkwan University,3.8,8,1,,,5.0
+83,مقاييس الأعمال للشركات التي تعتمد على البيانات,Duke University,4.5,11,0,,,17.0
+84,Машинное обучение с использованием Python,IBM,4.5,,2,,,22.0
+85,Meaningful Predictive Modeling,University of California San Diego,4.4,45,2,5120,9,9.0
+86,"Understanding China, 1700-2000: A Data Analytic Approach, Part 2",The Hong Kong University of Science and Technology,4.6,50,0,,,17.0
+87,Тренды и классификации,Novosibirsk State University ,4.5,37,2,3533,,19.0
+88,Что такое обработка и анализ данных?,IBM,4.5,,1,,,10.0
+89,Foundations of mining non-structured medical data,EIT Digital ,4.0,20,1,2307,8,7.0
+90,AI Workflow: Enterprise Model Deployment,IBM,4.2,44,3,1934,9,9.0
+91,Reproducible Templates for Analysis and Dissemination,Emory University,4.6,16,1,1777,10,20.0
+92,Data Visualization Best Practices,"University of California, Irvine",4.5,,0,,,9.0
+93,Capstone: Analyzing (Social) Network Data,University of California San Diego,4.7,97,0,,,17.0
+94,Машинное обучение для руководителей,E-Learning Development Fund,4.4,14,1,,,5.0
+95,Réseaux neuronaux et Deep Learning,DeepLearning.AI,4.5,,2,,,20.0
+96,Data Mining Project,University of Colorado Boulder,4.5,,2,5939,8,11.0
+97,Data Mining Project,University of Colorado Boulder,4.5,,2,,,37.0
+98,Hands-on Text Mining and Analytics,Yonsei University,3.9,39,2,13292,9,13.0
+99,Линейная регрессия,Saint Petersburg State University,4.9,11,2,1536,,14.0
+100,التعلّم الآلي باستخدام لغة بايثون,IBM,4.5,,2,,,22.0
+101,Neural Networks and Random Forests,LearnQuest,4.5,,2,,,10.0
+102,Big Data: capstone project,Universitat Autònoma de Barcelona,4.7,48,3,3881,22,13.0
+103,Data Analytics Foundations for Accountancy II,University of Illinois at Urbana-Champaign,4.8,8,0,2881,,17.0
+104,AI Workflow: AI in Production,IBM,4.5,41,3,2336,10,17.0
+105,Introducción al Aprendizaje Profundo,Universidad Austral,4.5,,1,,,7.0
+106,Causal Inference  2,Columbia University,3.4,13,3,3601,,6.0
+107,Importing Data in the Tidyverse,Johns Hopkins University,4.6,20,1,,3,15.0
+108,R البرمجة باستخدام لغة,Johns Hopkins University,4.5,,2,,,59.0
+109,Combining and Analyzing Complex Data,"University of Maryland, College Park",4.2,54,0,7049,8,10.0
+110,Data for Machine Learning,Alberta Machine Intelligence Institute,4.4,87,2,6200,24,12.0
+111,Visualizing Data in the Tidyverse,Johns Hopkins University,4.4,7,0,,,17.0
+112,Capstone Project: Predicting Safety Stock,LearnQuest,4.5,,2,,,10.0
+113,Estadísticas para la Ciencia de Datos con Python,IBM,4.5,,0,,,12.0
+114,Practical Predictive Analytics: Models and Methods,University of Washington,4.1,306,0,,,17.0
+115,Global Statistics - Composite Indices for International Comparisons,University of Geneva,4.6,37,2,2809,18,16.0
+116,Introduction à l'analyse de données à l'aide d'Excel,Rice University,4.5,,0,,,17.0
+117,"Cluster Analysis, Association Mining, and Model Evaluation","University of California, Irvine",4.6,22,2,,,4.0
+118,"Build Regression, Classification, and Clustering Models",CertNexus,4.5,,2,,,20.0
+119,مجموعة أدوات عالم البيانات,Johns Hopkins University,4.5,8,0,,,17.0
+120,Advanced Clinical Data Science,University of Colorado System,4.9,8,2,,,4.0
+121,Structural Equation Model and its Applications | 结构方程模型及其应用 (粤语),The Chinese University of Hong Kong,4.8,20,0,2398,,17.0
+122,Optimizing Machine Learning Performance,Alberta Machine Intelligence Institute,4.6,38,0,5319,8,12.0
+123,Python para a Ciência de Dados e IA,IBM,4.5,,1,,,29.0
+124,Методология обработки и анализа данных,IBM,4.5,,1,,,10.0
+125,Visualizing & Communicating Results in Python with Jupyter,Codio,4.5,,1,,,9.0
+126,Advanced Linear Models for Data Science 2: Statistical Linear Models,Johns Hopkins University,4.6,70,3,19829,12,6.0
+127,Introduction to Formal Concept Analysis,HSE University,4.8,36,2,7385,14,26.0
+128,Estimating ML-Models Financial Impact,HSE University,4.5,,2,,,20.0
+129,Machine Learning Models in Science,LearnQuest,4.5,,2,,,12.0
+130,Using SAS Viya REST APIs with Python and R,SAS,4.5,11,0,2910,,17.0
+131,Visualizing Data & Communicating Results in R with RStudio,Codio,4.5,,1,,,10.0
+132,Big Data Applications: Machine Learning at Scale,Yandex,3.8,86,3,10807,22,28.0
+133,Design Thinking and Predictive Analytics for Data Products,University of California San Diego,4.5,61,2,7668,11,8.0
+134,Practical Machine Learning on H2O,H2O,4.5,70,2,7291,17,24.0
+135,"Build Decision Trees, SVMs, and Artificial Neural Networks",CertNexus,5.0,6,2,,,22.0
+136,Wrangling Data in the Tidyverse,Johns Hopkins University,4.8,14,0,,5,14.0
+137,بايثون لعلوم البيانات والذكاء الصناعي,IBM,4.5,,1,,,29.0
+138,الشبكات العصبية والتعلم العميق,DeepLearning.AI,4.6,9,2,3446,,19.0
+139,Doing Clinical Research: Biostatistics with the Wolfram Language,University of Cape Town,4.7,38,1,3674,10,15.0
+140,Clinical Natural Language Processing,University of Colorado System,3.4,18,2,3669,9,12.0
+141,"Predictive Modeling, Model Fitting, and Regression Analysis","University of California, Irvine",4.5,24,2,,2,4.0
+142,Fundamentals of Data Analysis,LearnQuest,4.2,9,1,,,18.0
+143,Статистические методы в гуманитарных исследованиях,National Research Tomsk State University,4.7,61,2,5506,20,20.0
+144,Advanced Recommender Systems,EIT Digital ,4.0,7,2,,,15.0
+145,Artificial Intelligence Privacy and Convenience,LearnQuest,4.6,37,2,1832,9,6.0
+146,Statistics with R Capstone,Duke University,4.6,202,0,7354,51,6.0
+147,Artificial Intelligence Ethics in Action,LearnQuest,4.7,22,2,1736,,6.0
+148,ANOVA and Experimental Design,University of Colorado Boulder,4.5,,2,,,39.0
+149,Practical SAS Programming and Certification Review,SAS,4.9,350,2,13228,62,21.0
+150,مقدمة عن البيانات الضخمة,University of California San Diego,4.5,79,0,2440,,17.0
+151,Case studies in business analytics with ACCENTURE,ESSEC Business School,3.7,196,0,,,17.0
+152,Data Mining Methods,University of Colorado Boulder,4.5,,2,,,22.0
+153,Deploying Machine Learning Models,University of California San Diego,3.6,47,0,8484,14,11.0
+154,Data Science Project: MATLAB for the Real World,MathWorks,4.8,15,2,2877,8,13.0
+155,Matrix Factorization and Advanced Techniques,University of Minnesota,4.3,177,0,13378,26,16.0
+156,Bayesian Statistics: Mixture Models,"University of California, Santa Cruz",4.7,23,3,5117,8,22.0
+157,Power and Sample Size for Multilevel and Longitudinal Study Designs,University of Florida,4.4,23,2,3588,4,24.0
+158,Introduction to the Tidyverse,Johns Hopkins University,3.9,19,1,1617,,8.0
+159,Simulation Models for Decision Making,University of Minnesota,4.4,8,1,,,17.0
+160,Обработка больших данных,HSE University,4.5,,2,,,42.0
+161,人工智慧：機器學習與理論基礎 (Artificial Intelligence - Learning & Theory),National Taiwan University,4.6,38,2,7473,3,12.0
+162,O que é ciência de dados?,IBM,4.5,,1,,,10.0
+163,Знакомство с R и базовая статистика,Saint Petersburg State University,4.8,68,1,6249,18,20.0
+164,Iniciación A La IA con IBM Watson,IBM,4.7,44,1,,9,9.0
+165,Data Science for Business Innovation,EIT Digital ,4.3,166,1,7621,49,7.0
+166,Введение в науку о данных (An Introduction to Data Science),Saint Petersburg State University,3.9,54,0,7433,,17.0
+167,機器學習技法 (Machine Learning Techniques),National Taiwan University,4.9,20,2,,,17.0
+168,Fundamentos de la visualización de datos con Tableau,Universidad Austral,4.7,23,1,,9,8.0
+169,Data Analytics Foundations for Accountancy I,University of Illinois at Urbana-Champaign,4.3,28,0,7117,10,17.0
+170,Structural Equation Model and its Applications | 结构方程模型及其应用 (普通话),The Chinese University of Hong Kong,4.7,76,0,7296,36,17.0
+171,Increasing Real Estate Management Profits: Harnessing Data Analytics,Duke University,4.7,230,0,12987,51,23.0
+172,"Intro to Analytic Thinking, Data Science, and Data Mining","University of California, Irvine",4.0,50,2,2803,11,7.0
+173,Machine Learning Algorithms: Supervised Learning Tip to Tail,Alberta Machine Intelligence Institute,4.7,368,0,12958,61,9.0
+174,Turn Ethical Frameworks into Actionable Steps,CertNexus,4.4,50,1,2698,8,15.0
+175,Detect and Mitigate Ethical Risks,CertNexus,4.3,42,1,2614,,19.0
+176,Relational database systems,Universidad Nacional Autónoma de México,4.1,192,2,17197,49,15.0
+177,Enjoyable Econometrics,Erasmus University Rotterdam,4.2,49,1,12574,17,17.0
+178,Communicate Effectively about Ethical Challenges in Data-Driven Technologies,CertNexus,4.2,31,1,2070,,14.0
+179,Create and Lead an Ethical Data-Driven Organization,CertNexus,4.3,37,1,1999,,13.0
+180,Predictive Modeling and Machine Learning with MATLAB,MathWorks,4.7,78,2,10237,22,22.0
+181,Data Science Capstone,Johns Hopkins University,4.5,1183,0,,,17.0
+182,Data Analysis in Python with pandas & matplotlib in Spyder,Codio,4.5,,1,,,10.0
+183,Microsoft Azure Databricks for Data Engineering,Microsoft,4.5,,2,,,22.0
+184,Visualización de Datos con Python,IBM,4.9,8,2,,,18.0
+185,Aprendizaje Automático con Python,IBM,4.5,,2,,,22.0
+186,Causal Inference,Columbia University,3.4,56,3,,,17.0
+187,Aprendizado de máquina com Python,IBM,4.5,,2,,,22.0
+188,Business intelligence and data warehousing,Universidad Nacional Autónoma de México,3.9,87,2,9780,22,10.0
+189,Исследование статистических взаимосвязей,Novosibirsk State University ,4.7,69,2,4485,,21.0
+190,Data Analysis Tools,Wesleyan University,4.5,397,0,,,17.0
+191,Machine Learning for Data Analysis,Wesleyan University,4.2,305,0,,,17.0
+192,Regression Modeling in Practice,Wesleyan University,4.4,269,0,,,17.0
+193,Clinical Data Models and Data Quality Assessments,University of Colorado System,4.2,52,2,4831,16,17.0
+194,Big Data - Capstone Project,University of California San Diego,4.4,379,0,,,17.0
+195,Продвинутые методы машинного обучения,HSE University,4.5,,2,,,45.0
+196,Big Data: visualización de datos,Universitat Autònoma de Barcelona,4.6,149,2,9762,60,9.0
+197,Intro to TensorFlow en Español,Google Cloud,4.4,118,2,3579,28,18.0
+198,Feature Engineering en Français,Google Cloud,4.5,,2,,,18.0
+199,How Google does Machine Learning en Español,Google Cloud,4.6,191,2,6041,64,8.0
+200,Dealing With Missing Data,"University of Maryland, College Park",3.8,118,0,9965,33,18.0
+201,Machine Learning: Clustering & Retrieval,University of Washington,4.6,2231,0,85636,382,17.0
+202,Genomic Data Science Capstone,Johns Hopkins University,4.5,60,0,2855,21,17.0
+203,NoSQL systems,Universidad Nacional Autónoma de México,4.2,115,2,8750,26,9.0
+204,Data Visualization Capstone,Johns Hopkins University,4.9,14,0,,5,22.0
+205,Designing data-intensive applications,Universidad Nacional Autónoma de México,4.5,30,2,5796,,7.0
+206,Network Analysis,HSE University,4.5,,1,,,17.0
+207,Introduction to Text Mining with R,HSE University,4.5,,1,,,11.0
+208,Modeling Data in the Tidyverse,Johns Hopkins University,4.5,,0,,,21.0
+209,Data Analysis and Presentation Skills: the PwC Approach Final Project,PwC,4.8,224,1,3435,46,11.0
+210,How Google does Machine Learning 日本語版,Google Cloud,4.5,126,2,2403,22,8.0
+211,Promote the Ethical Use of Data-Driven Technologies,CertNexus,4.6,83,1,4936,16,21.0
+212,Identifying Patient Populations,University of Colorado System,4.5,31,2,2121,10,13.0
+213,Relational Database Support for Data Warehouses,University of Colorado System,4.6,575,0,,,17.0
+214,Análisis de datos con Python,IBM,4.8,11,1,,4,24.0
+215,Design and Build a Data Warehouse for Business Intelligence Implementation,University of Colorado System,4.6,252,0,,,17.0
+216,Predict Visitor Purchases with a Classification Model in BQML,Google Cloud,4.5,,2,,,2.0
+217,Data Management and Visualization,Wesleyan University,4.4,882,0,,,17.0
+218,Solve Business Problems with AI and Machine Learning,CertNexus,4.8,9,2,1509,,11.0
+219,Recommender Systems:  Evaluation and Metrics,University of Minnesota,4.4,216,0,11105,30,7.0
+220,Quantifying Relationships with Regression Models,Johns Hopkins University,4.8,9,2,,,11.0
+221,Google Cloud Platform Big Data and Machine Learning Fundamentals em Português Brasileiro,Google Cloud,4.8,65,2,1660,12,12.0
+222,Follow a Machine Learning Workflow,CertNexus,4.5,,2,,,20.0
+223,Python per la Data Science,Università di Napoli Federico II,4.5,,2,,,18.0
+224,Artificial Intelligence Algorithms Models and Limitations,LearnQuest,4.7,101,1,4523,25,8.0
+225,Введение в анализ данных сайтов,Saint Petersburg State University,4.5,,1,,,8.0
+226,Factorial and Fractional Factorial Designs,Arizona State University,4.7,40,2,2848,9,12.0
+227,Data Manipulation at Scale: Systems and Algorithms,University of Washington,4.3,752,0,,,17.0
+228,"Response Surfaces, Mixtures, and Model Building",Arizona State University,4.7,45,2,2167,12,13.0
+229,Advanced Models for Decision Making,University of Minnesota,4.8,9,1,,,14.0
+230,"Random Models, Nested and Split-plot Designs",Arizona State University,4.6,27,2,1840,5,9.0
+231,Сравнение и создание групп,Novosibirsk State University ,4.5,38,2,2671,,22.0
+232,Ciencia de Datos Aplicada - Curso Capstone,IBM,4.9,7,2,,,47.0
+233,Developing Data Products,Johns Hopkins University,4.6,2209,0,,,17.0
+234,Data Engineering with MS Azure Synapse Apache Spark Pools,Microsoft,4.5,,2,,,7.0
+235,Google Cloud Big Data and Machine Learning Fundamentals en Français,Google Cloud,4.3,25,2,1792,4,13.0
+236,Introduction to PyMC3 for Bayesian Modeling and Inference,Databricks,4.5,,1,,,12.0
+237,Bayesian Inference with MCMC,Databricks,4.5,,1,,,15.0
+238,Building Data Visualization Tools,Johns Hopkins University,3.9,151,2,11270,40,13.0
+239,Анализ данных: финальный проект,Moscow Institute of Physics and Technology,4.7,323,3,3741,64,44.0
+240,Introduction to Machine Learning: Language Processing,Google Cloud,4.2,10,1,,,4.0
+241,Python para Data Science y AI,IBM,4.8,25,1,,10,26.0
+242,Data Visualization e manipolazione dei dati con Tableau,Università di Napoli Federico II,4.5,,2,,,19.0
+243,Bases de datos y SQL para ciencia de datos,IBM,4.1,18,1,,7,14.0
+244,Introduction to Recommender Systems:  Non-Personalized and Content-Based,University of Minnesota,4.5,592,2,30796,124,23.0
+245,Introduction to Applied Machine Learning,Alberta Machine Intelligence Institute,4.7,614,2,19060,147,7.0
+246,Machine Learning for Accounting with Python,University of Illinois at Urbana-Champaign,4.6,26,2,6131,,64.0
+247,Communicating Business Analytics Results,University of Colorado Boulder,4.5,416,0,20333,86,7.0
+248,Business Analytics for Decision Making,University of Colorado Boulder,4.6,1621,0,72526,418,9.0
+249,Geospatial Analysis Project,"University of California, Davis",4.8,229,0,8360,69,62.0
+250,Nearest Neighbor Collaborative Filtering,University of Minnesota,4.3,292,0,12464,66,15.0
+251,Capstone Project: Advanced AI for Drug Discovery,LearnQuest,4.5,,2,,,12.0
+252,Contemporary Data Analysis: Survey and Best Practices,HSE University,4.5,,1,,,16.0
+253,Data Science on Google Cloud,Google Cloud,4.5,,3,,,12.0
+254,Data Science on Google Cloud: Machine Learning,Google Cloud,4.5,,3,,,7.0
+255,Business Statistics and Analysis Capstone,Rice University,4.7,370,0,14205,70,7.0
+256,Data Warehousing with Microsoft Azure Synapse Analytics,Microsoft,4.5,,2,,,15.0
+257,Статистические методы анализа данных,HSE University,4.5,,2,,,22.0
+258,Computational Social Science Capstone Project,"University of California, Davis",4.6,23,2,1953,8,14.0
+259,Математическая статистика и А/В тестирование,HSE University,4.5,,2,,,25.0
+260,Image Understanding with TensorFlow on GCP,Google Cloud,4.6,499,3,13203,58,12.0
+261,Big Data: procesamiento y análisis,Universitat Autònoma de Barcelona,4.2,228,2,12287,89,13.0
+262,Bayesian Methods for Machine Learning,HSE University,4.5,676,3,67795,197,33.0
+263,AI Workflow: Feature Engineering and Bias Detection,IBM,4.5,60,3,2578,7,12.0
+264,Generalized Linear Models and Nonparametric Regression,University of Colorado Boulder,4.5,,2,,,42.0
+265,Human Factors in AI,Duke University,4.5,,1,,,17.0
+266,Introduzione alla Data Visualization con Tableau,Università di Napoli Federico II,4.5,,1,,,18.0
+267,Visualización de Datos y Tableros con Excel y Cognos,IBM,4.3,18,1,,9,10.0
+268,Machine Learning e Data Mining in R,Università di Napoli Federico II,4.5,,2,,,31.0
+269,Optimization for Decision Making,University of Minnesota,4.9,7,1,,,14.0
+270,Data Processing and Feature Engineering with MATLAB,MathWorks,4.7,294,2,11455,103,18.0
+271,BigQuery Basics for Data Analysts,Google Cloud,4.6,30,1,,1,5.0
+272,Building Advanced Codeless Pipelines on Cloud Data Fusion,Google Cloud,4.5,,3,,,6.0
+273,Нейронные сети и глубокое обучение,DeepLearning.AI,4.5,,2,,,20.0
+274,"Understanding China, 1700-2000: A Data Analytic Approach, Part 1",The Hong Kong University of Science and Technology,4.6,106,0,,,17.0
+275,Demand Forecasting Using Time Series,LearnQuest,4.5,,2,,,9.0
+276,Spatial Data Science and Applications,Yonsei University,4.4,407,2,17976,135,12.0
+277,Math behind Moneyball,University of Houston,4.5,89,1,,,17.0
+278,Practical Reinforcement Learning,HSE University,4.2,437,3,43434,116,26.0
+279,Google Cloud Big Data and Machine Learning Fundamentals en Español,Google Cloud,4.7,616,2,17619,198,13.0
+280,Statistical Inference and Hypothesis Testing in Data Science Applications,University of Colorado Boulder,4.5,,2,,,34.0
+281,"AI Workflow: Machine Learning, Visual Recognition and NLP",IBM,4.5,60,3,2777,9,14.0
+282,AI Workflow: Business Priorities and Data Ingestion,IBM,4.3,139,2,4290,33,8.0
+283,Методология научных исследований и котики,National Research Tomsk State University,4.7,51,1,6261,14,14.0
+284,Publishing Visualizations in R with Shiny and flexdashboard,Johns Hopkins University,4.9,22,0,1725,7,12.0
+285,Advanced Data Visualization with R,Johns Hopkins University,4.8,31,0,1869,11,11.0
+286,Python: обработка и анализ данных и ИИ,IBM,4.5,,1,,,29.0
+287,Introduction to Microsoft Azure Synapse Analytics,Microsoft,4.5,,2,,,8.0
+288,Estatística não-paramétrica para a tomada de decisão,Universidade de São Paulo,4.4,108,2,9098,31,13.0
+289,Introdução ao Big Data,Fundação Instituto de Administração,4.6,306,1,14669,91,16.0
+290,Improving Your Statistical Questions,Eindhoven University of Technology,4.9,89,2,5515,19,18.0
+291,Leveraging Unstructured Data with Cloud Dataproc on Google Cloud em Português Brasileiro,Google Cloud,4.6,13,2,,,11.0
+292,Mathematical Biostatistics Boot Camp 2,Johns Hopkins University,4.4,99,0,,,17.0
+293,Introduction to Machine Learning in Sports Analytics,University of Michigan,4.5,,2,,,13.0
+294,Machine Learning: Classification,University of Washington,4.7,3596,0,110915,597,21.0
+295,Wearable Technologies and Sports Analytics,University of Michigan,4.5,,2,,,28.0
+296,Reinforcement Learning: Qwik Start,Google Cloud,4.5,,1,,,1.0
+297,Metodología de la ciencia de datos,IBM,4.8,20,1,,3,10.0
+298,Measurement – Turning Concepts into Data,Johns Hopkins University,4.8,45,1,,15,11.0
+299,Introduction to Data Science and scikit-learn in Python,LearnQuest,4.5,,1,,,14.0
+300,Practical Crowdsourcing for Efficient Machine Learning,Yandex,3.0,6,1,6560,,17.0
+301,Введение в теорию построения процедур множественной проверки гипотез,HSE University,4.5,,2,,,17.0
+302,Functional Programming in Scala Capstone,École Polytechnique Fédérale de Lausanne,4.4,530,0,12142,91,27.0
+303,Command Line Tools for Genomic Data Science,Johns Hopkins University,4.1,465,0,,,17.0
+304,Linear Regression for Business Statistics,Rice University,4.8,1214,0,34299,200,28.0
+305,Natural Language Processing in Microsoft Azure,Microsoft,4.9,14,1,,,8.0
+306,Analyzing Big Data with SQL,Cloudera,4.9,430,1,19850,115,18.0
+307,Predictive Modeling with Logistic Regression using SAS,SAS,4.6,28,2,1535,7,17.0
+308,Business Analytics and Digital Media,Indian School of Business,4.4,642,1,20420,134,8.0
+309,Introduction to Bayesian Statistics,Databricks,2.7,11,1,,,13.0
+310,Introduction to Clinical Data Science,University of Colorado System,4.6,298,2,11829,88,8.0
+311,Sequence Models for Time Series and Natural Language Processing,Google Cloud,4.4,463,3,14017,66,15.0
+312,Big Data: adquisición y almacenamiento de datos,Universitat Autònoma de Barcelona,4.4,581,2,14673,258,11.0
+313,Information Visualization: Advanced Techniques,New York University,4.7,29,2,3327,10,16.0
+314,Advanced AI Techniques for the Supply Chain,LearnQuest,4.5,,2,,,22.0
+315,Information Visualization: Applied Perception,New York University,4.8,93,1,3638,28,12.0
+316,تحليل البيانات باستخدام بايثون,IBM,4.5,,1,,,18.0
+317,Python: Istruzioni per l’uso,Università di Napoli Federico II,3.8,11,1,,,16.0
+318,機器學習基石下 (Machine Learning Foundations)---Algorithmic Foundations,National Taiwan University,4.9,298,2,13298,55,9.0
+319,Data Science with R - Capstone Project,IBM,4.5,,2,,,14.0
+320,Conceptos Básicos de Excel para el Análisis de Datos,IBM,3.9,36,1,2242,19,12.0
+321,Practicing for the SAS Programming Certification Exam,SAS,4.9,25,2,,2,9.0
+322,Введение в данные,Novosibirsk State University ,4.7,154,2,9480,29,16.0
+323,Fundamentals of Data Visualization,University of Colorado Boulder,4.5,,2,,,14.0
+324,Ethical Issues in Data Science,University of Colorado Boulder,4.3,9,1,,,24.0
+325,Data Analytics in Accounting Capstone,University of Illinois at Urbana-Champaign,4.5,,2,1714,,19.0
+326,Pattern Discovery in Data Mining,University of Illinois at Urbana-Champaign,4.3,298,0,,,17.0
+327,Bayesian Statistics,Duke University,3.8,759,2,,,17.0
+328,"Business Intelligence Concepts, Tools, and Applications",University of Colorado System,4.5,582,0,,,17.0
+329,Основы машинного обучения,HSE University,4.6,27,2,1914,,48.0
+330,Fundamentals of Machine Learning for Supply Chain,LearnQuest,4.5,,1,,,13.0
+331,AI Workflow: Data Analysis and Hypothesis Testing,IBM,4.2,90,3,2736,15,11.0
+332,Building R Packages,Johns Hopkins University,4.1,211,2,9686,56,21.0
+333,Managing Machine Learning Projects with Google Cloud,Google Cloud,4.6,3522,1,109398,927,14.0
+334,Applied Data Science for Data Analysts,Databricks,4.2,24,2,1632,6,16.0
+335,Advanced Linear Models for Data Science 1: Least Squares,Johns Hopkins University,4.4,157,3,24946,39,8.0
+336,Machine Learning Rapid Prototyping with IBM Watson Studio,IBM,4.5,,2,,,9.0
+337,Computer Simulations,"University of California, Davis",4.6,48,1,4423,12,13.0
+338,Prediction Models with Sports Data,University of Michigan,4.5,,0,,,33.0
+339,Machine Learning With Big Data,University of California San Diego,4.6,2347,0,,,17.0
+340,Analyzing a Tennis Serve with the Video Intelligence API,Google Cloud,4.5,,2,,,1.0
+341,"Data – What It Is, What We Can Do With It",Johns Hopkins University,4.5,70,1,2748,17,11.0
+342,Accounting Data Analytics with Python,University of Illinois at Urbana-Champaign,4.1,50,2,7760,15,32.0
+343,Basic Data Processing and Visualization,University of California San Diego,4.3,166,2,16803,48,11.0
+344,Serverless Data Processing with Dataflow: Operations,Google Cloud,4.5,,3,,,10.0
+345,Practical Machine Learning,Johns Hopkins University,4.5,3156,0,,,17.0
+346,Predictive Modeling and Analytics,University of Colorado Boulder,3.6,534,0,27676,196,11.0
+347,Fundamentos de probabilidad y aplicaciones,Universidad de los Andes,4.8,58,2,4005,21,16.0
+348,Analytics en las organizaciones,Universidad de los Andes,4.8,11,1,,7,19.0
+349,MongoDB Aggregation Framework,MongoDB Inc.,4.6,44,2,8246,11,19.0
+350,The Fundamental of Data-Driven Investment,Sungkyunkwan University,4.5,,1,,,19.0
+351,Redes Ecológicas,Universidade de São Paulo,5.0,19,1,,5,18.0
+352,Graph Analytics for Big Data,University of California San Diego,4.3,1179,0,41945,224,13.0
+353,Сбор и анализ данных в Python,HSE University,4.5,10,2,,6,21.0
+354,Recommendation Systems with TensorFlow on GCP,Google Cloud,4.5,423,3,13824,73,13.0
+355,Preparing for AI-900: Microsoft Azure AI Fundamentals exam,Microsoft,5.0,8,1,,,10.0
+356,Herramientas para la ciencia de datos,IBM,4.4,23,1,,8,16.0
+357,Cluster Analysis in Data Mining,University of Illinois at Urbana-Champaign,4.5,382,0,,,17.0
+358,2D image processing,HSE University,4.5,,1,,,14.0
+359,Bioconductor for Genomic Data Science,Johns Hopkins University,3.9,296,0,,,17.0
+360,Managing Machine Learning Projects,Duke University,4.5,,1,,,18.0
+361,Data Visualization with R,IBM,4.5,,1,,,10.0
+362,Regression Modeling Fundamentals,SAS,4.8,24,2,,5,12.0
+363,Big Data: el impacto de los datos masivos en la sociedad actual,Universitat Autònoma de Barcelona,4.7,1922,1,30802,724,7.0
+364,Python для анализа данных,Moscow Institute of Physics and Technology,4.5,102,2,12969,23,37.0
+365,Введение в анализ данных с помощью Excel,Rice University,4.5,,0,,,17.0
+366,Developing AI Applications on Azure,LearnQuest,4.4,936,3,43655,257,16.0
+367,Машинное обучение и большие данные,National Research Nuclear University MEPhI,4.5,,1,,,27.0
+368,Regression Models,Johns Hopkins University,4.4,3264,0,,,17.0
+369,Анализ данных с использованием Python,IBM,4.5,,1,,,19.0
+370,Introduction to Neurohacking In R,Johns Hopkins University,4.6,253,2,19559,49,18.0
+371,Fundamentals of Machine Learning in Finance,New York University,3.8,296,2,16074,62,18.0
+372,¿Qué es la ciencia de datos?,IBM,4.7,74,1,,27,8.0
+373,Reinforcement Learning in Finance,New York University,3.6,113,3,15794,30,17.0
+374,Big Data Integration and Processing,University of California San Diego,4.4,2284,1,63773,493,18.0
+375,Managing Big Data in Clusters and Cloud Storage,Cloudera,4.7,235,1,8845,53,21.0
+376,Text Mining and Analytics,University of Illinois at Urbana-Champaign,4.5,646,0,,,17.0
+377,Introduction to Statistical Analysis:  Hypothesis Testing,SAS,4.7,50,2,4231,13,10.0
+378,Serverless Data Processing with Dataflow: Develop Pipelines,Google Cloud,4.2,9,3,,,19.0
+379,Reproducible Research,Johns Hopkins University,4.6,4068,0,,,17.0
+380,Business Applications of Hypothesis Testing and Confidence Interval Estimation,Rice University,4.8,1155,0,25323,201,25.0
+381,ML Pipelines on Google Cloud,Google Cloud,3.9,20,3,3598,3,11.0
+382,Introduction to Predictive Modeling,University of Minnesota,5.0,20,0,,7,12.0
+383,Inferential Statistics,University of Amsterdam,4.3,515,0,,,17.0
+384,Data Storage in Microsoft Azure,Microsoft,4.5,,2,,,16.0
+385,Data Integration with Microsoft Azure Data Factory,Microsoft,4.5,,2,,,16.0
+386,Advanced R Programming,Johns Hopkins University,4.3,544,2,28008,134,18.0
+387,How to Win a Data Science Competition: Learn from Top Kagglers,HSE University,4.7,1100,3,103547,270,54.0
+388,Preparing for the SAS Programming Certification Exam,SAS,4.8,28,2,,5,16.0
+389,Linear Regression and Modeling,Duke University,4.7,1544,1,79007,286,10.0
+390,Advanced Business Analytics Capstone,University of Colorado Boulder,4.3,53,0,6892,17,19.0
+391,Data Visualization in R with ggplot2,Johns Hopkins University,5.0,53,2,2682,12,13.0
+392,Google Cloud Big Data and Machine Learning Fundamentals 日本語版,Google Cloud,4.5,152,2,3882,16,13.0
+393,Social Network Analysis,"University of California, Davis",4.7,157,1,,,17.0
+394,Машинное обучение в финансах,SberUniversity,4.5,78,2,8769,35,21.0
+395,Maps and the Geospatial Revolution,The Pennsylvania State University,4.7,211,1,,,17.0
+396,Getting Started with CyberGIS,University of Illinois at Urbana-Champaign,4.5,,1,,,9.0
+397,Data Science in Real Life,Johns Hopkins University,4.4,2254,0,,,17.0
+398,Moneyball and Beyond,University of Michigan,4.8,12,0,,1,29.0
+399,Principles of fMRI 2,Johns Hopkins University,4.7,207,0,,,17.0
+400,Introducción al procesamiento de lenguaje natural,Universidad Austral,4.5,6,1,,,13.0
+401,Natural Language Processing,HSE University,4.4,783,3,,,17.0
+402,Introducción al Análisis de Datos,IBM,4.7,73,1,2605,27,11.0
+403,Statistics for Genomic Data Science,Johns Hopkins University,4.2,296,0,,,17.0
+404,Probabilistic Graphical Models 3: Learning,Stanford University,4.6,291,3,18191,51,66.0
+405,Using Machine Learning in Trading and Finance,New York Institute of Finance,4.0,268,2,14169,69,19.0
+406,Reinforcement Learning for Trading Strategies,New York Institute of Finance,3.7,172,2,9841,47,12.0
+407,Advanced SAS Programming Techniques,SAS,4.9,44,2,,11,17.0
+408,Data Analysis with R,IBM,4.9,16,2,1801,3,13.0
+409,Прикладные задачи анализа данных,Moscow Institute of Physics and Technology,4.3,729,2,18131,112,28.0
+410,3D Data Visualization for Science Communication,University of Illinois at Urbana-Champaign,4.5,,1,2920,,32.0
+411,Exploratory Data Analysis,Johns Hopkins University,4.7,5908,0,,,17.0
+412,Art and Science of Machine Learning,Google Cloud,4.6,1365,2,21971,119,19.0
+413,Creating Advanced Reports with SAS Visual Analytics,SAS,4.7,165,2,7809,21,9.0
+414,"Performing Network, Path, and Text Analyses in SAS Visual Analytics",SAS,4.7,168,2,6820,20,4.0
+415,SQL for Data Science with R,IBM,3.8,14,1,1811,,15.0
+416,Machine Learning: Regression,University of Washington,4.8,5378,0,142383,1002,22.0
+417,Introducción a La Inteligencia Artificial (IA),IBM,4.6,101,1,3769,35,9.0
+418,Inferential Statistics,Duke University,4.8,2219,1,,,17.0
+419,Bancos de dados e SQL para Ciência de Dados,IBM,4.6,13,1,1921,3,14.0
+420,Estadística aplicada a los negocios,Universidad Austral,4.6,640,1,46013,305,19.0
+421,"Big Data, Artificial Intelligence, and Ethics","University of California, Davis",4.6,337,1,18326,93,12.0
+422,Experimental Design Basics,Arizona State University,4.7,143,2,9217,36,13.0
+423,Code Free Data Science,University of California San Diego,4.3,85,1,9999,29,14.0
+424,Population Health: Predictive Analytics,Universiteit Leiden,5.0,12,2,2489,8,18.0
+425,Basic Recommender Systems,EIT Digital ,3.9,17,2,,4,12.0
+426,Introduction to People Analytics,Moscow Institute of Physics and Technology,4.3,329,0,,,17.0
+427,Building AI Applications with Watson APIs,IBM,4.3,572,2,11375,127,17.0
+428,Population Health: Responsible Data Analysis,Universiteit Leiden,4.6,25,1,3146,6,21.0
+429,Probabilistic Deep Learning with TensorFlow 2,Imperial College London,4.7,54,3,7822,19,53.0
+430,Microsoft Azure for Data Engineering,Microsoft,4.6,9,2,,,6.0
+431,Web of Data,EIT Digital ,4.2,73,2,3997,19,18.0
+432,Production Machine Learning Systems,Google Cloud,4.6,867,3,19734,94,21.0
+433,Business Analytics Capstone,University of Pennsylvania,4.5,647,2,,,17.0
+434,End-to-End Machine Learning with TensorFlow on GCP,Google Cloud,4.5,1578,3,51717,253,13.0
+435,Applied Social Network Analysis in Python,University of Michigan,4.7,2479,2,81149,417,29.0
+436,"Managing, Describing, and Analyzing Data",University of Colorado Boulder,4.3,15,1,2078,6,17.0
+437,Big Data Modeling and Management Systems,University of California San Diego,4.4,2880,0,82301,491,13.0
+438,A Complete Reinforcement Learning System (Capstone),University of Alberta,4.7,518,2,13232,110,16.0
+439,Framework for Data Collection and Analysis,"University of Maryland, College Park",4.2,606,2,23227,139,10.0
+440,Serverless Data Processing with Dataflow: Foundations,Google Cloud,4.2,17,2,1955,2,3.0
+441,Fitting Statistical Models to Data with Python,University of Michigan,4.4,560,2,24317,103,15.0
+442,Introduction to Deep Learning,HSE University,4.5,1811,3,165180,424,34.0
+443,Machine Learning Using SAS Viya,SAS,4.7,79,2,,,17.0
+444,Guided Tour of Machine Learning in Finance,New York University,3.8,607,2,26490,195,24.0
+445,Поиск структуры в данных,Moscow Institute of Physics and Technology,4.7,1441,2,21114,163,31.0
+446,Построение выводов по данным,Moscow Institute of Physics and Technology,4.7,1013,3,21650,153,27.0
+447,Data Mining Pipeline,University of Colorado Boulder,4.5,,2,,,21.0
+448,Text Retrieval and Search Engines,University of Illinois at Urbana-Champaign,4.5,845,0,,,17.0
+449,Modern Regression Analysis in R,University of Colorado Boulder,4.5,,2,,,45.0
+450,Econometrics,HSE University,4.3,8,2,,,17.0
+451,Microsoft Azure Machine Learning,Microsoft,4.8,30,1,1742,4,11.0
+452,Statistical Inference,Johns Hopkins University,4.2,4280,0,,,17.0
+453,Managing Big Data with MySQL,Duke University,4.7,3765,0,,,17.0
+454,Applied Text Mining in Python,University of Michigan,4.2,3548,2,117750,687,29.0
+455,Getting Started with Data Visualization in R,Johns Hopkins University,4.8,112,1,5741,36,12.0
+456,Mathematics for computer vision,HSE University,2.9,7,2,1524,,19.0
+457,Algorithms for DNA Sequencing,Johns Hopkins University,4.7,733,0,,,17.0
+458,機器學習基石上 (Machine Learning Foundations)---Mathematical Foundations,National Taiwan University,4.9,838,1,38293,153,10.0
+459,Data Science Fundamentals for Data Analysts,Databricks,4.1,15,2,2759,,19.0
+460,MLOps (Machine Learning Operations) Fundamentals,Google Cloud,4.0,282,2,20895,91,16.0
+461,Feature Engineering,Google Cloud,4.5,1654,2,,,17.0
+462,Deep Learning and Reinforcement Learning,IBM,4.7,58,2,5055,13,14.0
+463,Advanced Data Science Capstone,IBM,4.6,361,3,12945,66,9.0
+464,Statistical Inference for Estimation in Data Science,University of Colorado Boulder,4.5,,2,,,27.0
+465,"Introduction to Trading, Machine Learning & GCP",Google Cloud,4.0,655,2,28640,180,9.0
+466,AI Capstone Project with Deep Learning,IBM,4.5,347,3,9050,62,16.0
+467,"Introduction to Data, Signal, and Image Analysis with MATLAB",Vanderbilt University,4.7,95,2,16030,32,23.0
+468,Customising your models with TensorFlow 2,Imperial College London,4.8,120,2,9186,48,27.0
+469,Using Data for Geographic Mapping and Forecasting in SAS Visual Analytics,SAS,4.8,183,2,7112,22,5.0
+470,Data Analysis in R with RStudio & Tidyverse,Codio,4.5,,1,,,10.0
+471,Exploratory Data Analysis with MATLAB,MathWorks,4.8,685,1,29698,195,19.0
+472,"Basic Data Descriptors, Statistical Distributions, and Application to Business Decisions",Rice University,4.7,2100,0,43315,355,21.0
+473,Interprofessional Healthcare Informatics,University of Minnesota,4.4,278,0,,,17.0
+474,Social Media Data Analytics,University of Washington,4.1,266,2,34642,71,13.0
+475,Data Visualization with Tableau Project,"University of California, Davis",4.6,398,2,20828,66,12.0
+476,Análise de dados com Python,IBM,4.5,,1,,,19.0
+477,"Machine Learning Under the Hood: The Technical Tips, Tricks, and Pitfalls",SAS,4.8,52,1,3329,23,17.0
+478,Experimentation for Improvement,McMaster University,4.8,815,2,,,17.0
+479,Specialized Models: Time Series and Survival Analysis,IBM,4.5,62,2,4983,19,11.0
+480,Data Science as a Field,University of Colorado Boulder,4.9,7,2,,,10.0
+481,Unsupervised Machine Learning,IBM,4.8,84,2,5124,20,9.0
+482,SQL for Data Science Capstone Project,"University of California, Davis",3.8,59,2,16768,,35.0
+483,Data Visualization and Communication with Tableau,Duke University,4.7,2992,0,,,17.0
+484,Launching into Machine Learning,Google Cloud,4.6,4069,2,36929,465,22.0
+485,Python for Genomic Data Science,Johns Hopkins University,4.3,1337,0,,,17.0
+486,Probabilistic Graphical Models 2: Inference,Stanford University,4.6,468,3,21703,73,38.0
+487,Computational Social Science Methods,"University of California, Davis",4.7,225,1,8390,61,11.0
+488,"The Power of Machine Learning: Boost Business, Accumulate Clicks, Fight Fraud, and Deny Deadbeats",SAS,4.8,125,1,8783,53,14.0
+489,Fundamentos de estadística aplicada,Universidad de los Andes,4.4,26,2,3878,13,29.0
+490,Базы данных и SQL в обработке и анализе данных,IBM,4.9,8,1,3127,,14.0
+491,Introduction to Data Analytics for Business,University of Colorado Boulder,4.7,2758,0,148859,743,12.0
+492,Getting and Cleaning Data,Johns Hopkins University,4.6,7845,0,,,17.0
+493,The R Programming Environment,Johns Hopkins University,4.3,1112,2,47365,306,27.0
+494,Machine Learning Foundations: A Case Study Approach,University of Washington,4.6,12622,0,,,17.0
+495,Mathematics for Machine Learning: PCA,Imperial College London,4.0,2675,2,62104,672,18.0
+496,Doing More with SAS Programming,SAS,4.8,698,2,21682,119,24.0
+497,Introduction to Accounting Data Analytics and Visualization,University of Illinois at Urbana-Champaign,4.8,350,1,18368,58,19.0
+498,Launching Machine Learning: Delivering Operational Success with Gold Standard ML Leadership,SAS,4.9,66,1,3166,24,14.0
+499,Introduction to TensorFlow,Google Cloud,4.4,2599,2,,,17.0
+500,Artificial Intelligence for Breast Cancer Detection,Johns Hopkins University,4.3,6,2,,,15.0
+501,Data Analysis and Reporting in SAS Visual Analytics,SAS,4.8,276,0,10512,42,9.0
+502,Building Deep Learning Models with TensorFlow,IBM,4.4,574,2,11906,118,13.0
+503,Principles of fMRI 1,Johns Hopkins University,4.6,716,1,,,17.0
+504,Foundations for Big Data Analysis with SQL,Cloudera,4.8,904,1,37665,227,12.0
+505,Inferential Statistical Analysis with Python,University of Michigan,4.6,733,2,29889,130,19.0
+506,Structured Query Language (SQL) using SAS,SAS,4.9,115,0,6466,31,24.0
+507,Data Visualization,University of Illinois at Urbana-Champaign,4.5,1258,0,,,17.0
+508,Building a Data Science Team,Johns Hopkins University,4.5,3186,0,,,17.0
+509,Scalable Machine Learning on Big Data using Apache Spark,IBM,3.8,1215,2,19166,308,7.0
+510,Supervised Machine Learning: Classification,IBM,4.9,97,2,5573,23,11.0
+511,Базы данных (Databases),Saint Petersburg State University,4.0,224,0,21769,68,17.0
+512,Digital Marketing Analytics in Practice,University of Illinois at Urbana-Champaign,4.5,3121,1,106886,674,20.0
+513,Apache Spark (TM) SQL for Data Analysts,Databricks,4.6,217,2,8546,63,14.0
+514,Prediction and Control with Function Approximation,University of Alberta,4.8,671,2,15684,123,22.0
+515,大數據分析：商業應用與策略管理 (Big Data Analytics: Business Applications and Strategic Decisions),National Taiwan University,4.7,180,1,13803,43,18.0
+516,AI For Medical Treatment,DeepLearning.AI,4.7,445,2,15841,93,23.0
+517,IBM Data Analyst Capstone Project,IBM,4.6,252,2,9589,34,14.0
+518,Creating Dashboards and Storytelling with Tableau,"University of California, Davis",4.6,845,1,36421,156,15.0
+519,Evaluations of AI Applications in Healthcare,Stanford University,4.5,100,1,4442,29,11.0
+520,Tools for Exploratory Data Analysis in Business,University of Illinois at Urbana-Champaign,4.8,6,1,1887,,18.0
+521,Mastering Data Analysis in Excel,Duke University,4.2,3765,0,,,17.0
+522,Visual Analytics with Tableau,"University of California, Davis",4.6,1579,1,39193,301,9.0
+523,How Google does Machine Learning,Google Cloud,4.6,6684,2,101751,1052,8.0
+524,Digital Marketing Analytics in Theory,University of Illinois at Urbana-Champaign,4.5,4517,1,114283,1092,20.0
+525,Getting started with TensorFlow 2,Imperial College London,4.9,371,2,21983,131,26.0
+526,Generative Deep Learning with TensorFlow,DeepLearning.AI,4.9,128,2,5664,18,23.0
+527,Applied AI with DeepLearning,IBM,4.4,1030,3,47113,177,24.0
+528,Statistics for Data Science with Python,IBM,4.6,145,0,8264,34,12.0
+529,Data Science Ethics,University of Michigan,4.8,597,1,23019,168,15.0
+530,Introduction to Big Data,University of California San Diego,4.6,9966,0,,,17.0
+531,Getting Started with Data Analytics on AWS,Amazon Web Services,4.7,75,1,5492,16,4.0
+532,Visualization for Data Journalism,University of Illinois at Urbana-Champaign,4.4,48,1,5832,20,18.0
+533,Анализ и обработка данных в Microsoft Power BI,Moscow Institute of Physics and Technology,4.5,35,1,3976,12,10.0
+534,"Statistical Thinking for Industrial Problem Solving, presented by JMP",SAS,4.8,45,1,3387,18,44.0
+535,Introduction to R Programming for Data Science,IBM,4.7,55,1,4735,16,10.0
+536,Genomic Data Science with Galaxy,Johns Hopkins University,3.6,911,0,,,17.0
+537,Обучение на размеченных данных,Moscow Institute of Physics and Technology,4.8,2567,2,33697,343,59.0
+538,Data Science in Stratified Healthcare and Precision Medicine,The University of Edinburgh,4.6,234,2,15656,62,17.0
+539,"Applied Plotting, Charting & Data Representation in Python",University of Michigan,4.5,5808,2,155239,988,17.0
+540,Data Visualization with Advanced Excel,PwC,4.8,2708,1,76278,431,15.0
+541,Essential Design Principles for Tableau,"University of California, Davis",4.5,1706,1,43457,287,13.0
+542,An Intuitive Introduction to Probability,University of Zurich,4.7,1167,1,45317,466,30.0
+543,Getting Started with AI using IBM Watson,IBM,4.5,2218,1,30898,430,10.0
+544,Statistics with SAS,SAS,4.8,220,2,20985,65,20.0
+545,Getting Started with SAS Visual Analytics,SAS,4.7,638,1,19755,123,5.0
+546,Applied Machine Learning in Python,University of Michigan,4.6,7540,2,241480,1377,34.0
+547,Probability and Statistics: To p or not to p?,University of London,4.6,1216,1,61811,423,16.0
+548,AI for Medical Prognosis,DeepLearning.AI,4.7,669,2,17999,116,31.0
+549,Research Data Management and Sharing,The University of North Carolina at Chapel Hill,4.7,533,0,27121,151,17.0
+550,Machine Translation,Karlsruhe Institute of Technology,4.5,53,2,,,17.0
+551,Distributed Computing with Spark SQL,"University of California, Davis",4.5,334,2,21657,82,14.0
+552,Analítica de Procesos: Optimización desde los Datos,Universidad de los Andes,4.5,,1,,,11.0
+553,Introduction to Deep Learning & Neural Networks with Keras,IBM,4.7,920,2,19882,187,8.0
+554,"Foundations of Sports Analytics: Data, Representation, and Models in Sports",University of Michigan,4.5,34,0,4686,11,49.0
+555,A Crash Course in Data Science,Johns Hopkins University,4.5,7693,0,,,17.0
+556,Julia Scientific Programming,University of Cape Town,4.5,383,1,30593,130,18.0
+557,The Unix Workbench,Johns Hopkins University,4.7,1244,1,46597,380,19.0
+558,DataOps Methodology,IBM,4.5,,1,,,10.0
+559,"Big Data Analysis: Hive, Spark SQL, DataFrames and GraphFrames",Yandex,4.0,193,3,28788,43,37.0
+560,Supervised Machine Learning: Regression,IBM,4.7,154,2,6924,35,11.0
+561,Advanced Machine Learning and Signal Processing,IBM,4.5,1158,3,37168,210,27.0
+562,Introduction to Data Analysis Using Excel,Rice University,4.7,8847,0,,,17.0
+563,Apply Generative Adversarial Networks (GANs),DeepLearning.AI,4.8,361,2,11671,75,28.0
+564,Introduction to Probability and Data with R,Duke University,4.7,4925,1,231485,1183,14.0
+565,Applied Data Science Capstone,IBM,4.7,5570,2,84401,728,10.0
+566,Problem Solving with Excel,PwC,4.7,4880,1,115731,886,20.0
+567,Machine Learning Foundations for Product Managers,Duke University,4.5,,1,,,16.0
+568,Fundamentals of Scalable Data Science,IBM,4.3,1910,1,59588,422,20.0
+569,Improving your statistical inferences,Eindhoven University of Technology,4.9,693,2,56880,227,28.0
+570,Deep Neural Networks with PyTorch,IBM,4.4,944,2,27762,220,31.0
+571,Business Metrics for Data-Driven Companies,Duke University,4.6,7952,0,,,17.0
+572,Getting Started with AWS Machine Learning,Amazon Web Services,4.5,5980,2,180820,1443,17.0
+573,Hadoop Platform and Application Framework,University of California San Diego,4.0,3258,0,,,17.0
+574,Sample-based Learning Methods,University of Alberta,4.7,986,2,19674,202,22.0
+575,Practical Time Series Analysis,The State University of New York,4.6,1356,2,60634,385,26.0
+576,Optimize ML Models and Deploy Human-in-the-Loop Pipelines,DeepLearning.AI,4.8,35,3,2081,9,11.0
+577,Introduction to Computer Vision and Image Processing,IBM,4.5,650,1,21073,125,21.0
+578,Basic Statistics,University of Amsterdam,4.6,3920,1,,,17.0
+579,Computational Neuroscience,University of Washington,4.6,883,1,,,17.0
+580,Introduction to Genomic Technologies,Johns Hopkins University,4.6,3595,0,,,17.0
+581,Introduction to Designing Data Lakes on AWS,Amazon Web Services,4.7,61,2,5718,25,14.0
+582,"Capstone: Retrieving, Processing, and Visualizing Data with Python",University of Michigan,4.7,11755,0,,,17.0
+583,Excel aplicado a los negocios (Nivel Avanzado),Universidad Austral,4.8,2254,2,131423,967,17.0
+584,R Programming,Johns Hopkins University,4.5,21217,2,,,17.0
+585,Process Mining: Data science in Action,Eindhoven University of Technology,4.7,965,2,,,17.0
+586,Введение в машинное обучение,HSE University,4.6,2396,0,108468,490,17.0
+587,Introduction to Clinical Data,Stanford University,4.6,126,1,6889,26,12.0
+588,Probability Theory: Foundation for Data Science,University of Colorado Boulder,4.4,8,2,4056,,48.0
+589,Introduction to Embedded Machine Learning,Edge Impulse,4.8,184,2,,,17.0
+590,"Data Wrangling, Analysis and AB Testing with SQL","University of California, Davis",3.4,401,2,28035,162,16.0
+591,Fundamentals of Machine Learning for Healthcare,Stanford University,4.8,158,1,7795,46,12.0
+592,Data Analysis Using Python,University of Pennsylvania,4.6,93,1,4161,33,17.0
+593,Getting Started with SAS Programming,SAS,4.8,2026,1,65002,459,22.0
+594,Computer Vision with Embedded Machine Learning,Edge Impulse,4.5,,2,,,31.0
+595,Fundamentals of Visualization with Tableau,"University of California, Davis",4.5,5166,1,134170,1177,11.0
+596,Data Analytics for Lean Six Sigma,University of Amsterdam,4.8,2411,1,46020,816,11.0
+597,Bayesian Statistics: Techniques and Models,"University of California, Santa Cruz",4.8,418,2,45444,133,30.0
+598,Understanding and Visualizing Data with Python,University of Michigan,4.7,2081,1,90006,431,20.0
+599,Fundamentos de Excel para Negocios,Universidad Austral,4.8,4114,1,254119,1705,17.0
+600,Introducción a Data Science: Programación Estadística con R,Universidad Nacional Autónoma de México,4.7,6985,1,183378,2817,17.0
+601,Custom and Distributed Training with TensorFlow,DeepLearning.AI,4.8,217,2,7287,29,25.0
+602,Probabilistic Graphical Models 1: Representation,Stanford University,4.6,1354,3,78604,302,67.0
+603,A Crash Course in Causality:  Inferring Causal Effects from Observational Data,University of Pennsylvania,4.7,381,2,27134,129,18.0
+604,Data-driven Decision Making,PwC,4.6,5603,1,146697,1071,17.0
+605,AI for Medical Diagnosis,DeepLearning.AI,4.7,1593,2,45696,349,20.0
+606,Build Better Generative Adversarial Networks (GANs),DeepLearning.AI,4.6,462,2,14039,70,30.0
+607,Natural Language Processing with Attention Models,DeepLearning.AI,4.4,662,2,31763,166,31.0
+608,Natural Language Processing with Sequence Models,DeepLearning.AI,4.5,784,2,33062,160,22.0
+609,The Data Scientist’s Toolbox,Johns Hopkins University,4.6,32222,0,,,17.0
+610,"Build, Train, and Deploy ML Pipelines using BERT",DeepLearning.AI,4.7,58,3,4352,9,11.0
+611,Advanced Computer Vision with TensorFlow,DeepLearning.AI,4.8,245,2,11927,44,25.0
+612,Математика и Python для анализа данных,Moscow Institute of Physics and Technology,4.8,5551,1,88344,940,28.0
+613,"Sequences, Time Series and Prediction",DeepLearning.AI,4.7,4166,2,84509,673,14.0
+614,Machine Learning Modeling Pipelines in Production,DeepLearning.AI,4.6,82,3,6137,18,26.0
+615,Deploying Machine Learning Models in Production,DeepLearning.AI,4.8,20,3,3886,3,33.0
+616,Introduction to Artificial Intelligence (AI),IBM,4.7,8027,1,142605,1779,17.0
+617,"Custom Models, Layers, and Loss Functions with TensorFlow",DeepLearning.AI,4.9,539,2,13857,120,32.0
+618,Data Visualization with Python,IBM,4.5,9527,2,132020,1428,17.0
+619,Google Cloud Big Data and Machine Learning Fundamentals,Google Cloud,4.7,13765,2,,,17.0
+620,Econometrics: Methods and Applications,Erasmus University Rotterdam,4.6,1058,0,,,17.0
+621,Bayesian Statistics: From Concept to Data Analysis,"University of California, Santa Cruz",4.6,2792,2,123852,727,12.0
+622,Exploratory Data Analysis for Machine Learning,IBM,4.6,419,2,20243,106,8.0
+623,Machine Learning with Python,IBM,4.7,11519,2,,,17.0
+624,Introduction to Machine Learning,Duke University,4.7,2779,2,,,17.0
+625,Google Data Analytics Capstone: Complete a Case Study,Google,4.8,1011,1,42705,144,8.0
+626,Natural Language Processing in TensorFlow,DeepLearning.AI,4.6,5614,2,94627,880,15.0
+627,Foundations of Data Science: K-Means Clustering in Python,University of London,4.7,349,1,21306,117,29.0
+628,Mathematics for Machine Learning: Linear Algebra,Imperial College London,4.7,10094,1,258162,2036,17.0
+629,Analyze Datasets and Train ML Models using AutoML,DeepLearning.AI,4.6,134,3,9772,29,15.0
+630,Introduction to Data Science in Python,University of Michigan,4.5,24599,2,,,17.0
+631,Data Visualization and Dashboards with Excel and Cognos,IBM,4.7,836,1,24111,126,9.0
+632,Natural Language Processing with Probabilistic Models,DeepLearning.AI,4.7,1208,2,37953,211,28.0
+633,Databases and SQL for Data Science with Python,IBM,4.7,13820,1,211375,1670,19.0
+634,Share Data Through the Art of Visualization,Google,4.5,1298,1,52566,278,24.0
+635,Sequence Models,DeepLearning.AI,4.8,27046,2,305580,3216,41.0
+636,Data Analysis with R Programming,Google,4.8,1164,1,53836,263,37.0
+637,Convolutional Neural Networks in TensorFlow,DeepLearning.AI,4.7,6952,2,98697,1083,27.0
+638,Data Science Methodology,IBM,4.6,16680,1,158743,2024,8.0
+639,Data Analysis with Python,IBM,4.7,13929,1,,,17.0
+640,Build Basic Generative Adversarial Networks (GANs),DeepLearning.AI,4.7,1261,2,32940,310,32.0
+641,Python Project for Data Science,IBM,4.5,1092,2,34504,211,6.0
+642,Fundamentals of Reinforcement Learning,University of Alberta,4.8,2105,2,54685,524,15.0
+643,Tools for Data Science,IBM,4.5,22332,1,230836,3492,17.0
+644,"Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",DeepLearning.AI,4.9,59375,2,416361,6864,17.0
+645,Process Data from Dirty to Clean,Google,4.8,2256,1,74982,422,22.0
+646,"Python for Data Science, AI & Development",IBM,4.6,23080,1,,,17.0
+647,Convolutional Neural Networks,DeepLearning.AI,4.9,39612,2,379915,5239,39.0
+648,Analyze Data to Answer Questions,Google,4.6,1613,1,60870,294,26.0
+649,Natural Language Processing with Classification and Vector Spaces,DeepLearning.AI,4.6,2955,2,86820,606,31.0
+650,Structuring Machine Learning Projects,DeepLearning.AI,4.8,47245,1,350038,5424,9.0
+651,Excel Basics for Data Analysis,IBM,4.7,1540,1,56496,286,12.0
+652,Machine Learning Data Lifecycle in Production,DeepLearning.AI,4.5,210,3,10922,37,21.0
+653,Machine Learning,Stanford University,4.9,163798,0,,,17.0
+654,"Foundations: Data, Data, Everywhere",Google,4.8,16817,1,406865,3718,20.0
+655,Ask Questions to Make Data-Driven Decisions,Google,4.7,5592,1,133614,894,18.0
+656,Neural Networks and Deep Learning,DeepLearning.AI,4.9,109140,2,,,17.0
+657,Introduction to Statistics,Stanford University,4.6,377,1,49759,75,15.0
+658,What is Data Science?,IBM,4.7,48595,1,,,17.0
+659,Prepare Data for Exploration,Google,4.8,3225,1,94477,483,22.0
+660,Introduction to Machine Learning in Production,DeepLearning.AI,4.8,824,3,28845,164,10.0
+661,Introduction to Data Analytics,IBM,4.8,3435,1,,,17.0
+662,SQL for Data Science,"University of California, Davis",4.6,10574,1,,,17.0

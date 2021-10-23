@@ -1,0 +1,451 @@
+key,value,date
+Language Learning,112,08/01/15
+Language Learning,148,09/01/15
+Language Learning,208,10/01/15
+Language Learning,215,11/01/15
+Language Learning,195,12/01/15
+Language Learning,248,01/01/16
+Language Learning,296,02/01/16
+Language Learning,308,03/01/16
+Language Learning,213,04/01/16
+Language Learning,204,05/01/16
+Language Learning,296,06/01/16
+Language Learning,186,07/01/16
+Language Learning,267,08/01/16
+Language Learning,300,09/01/16
+Language Learning,325,10/01/16
+Language Learning,379,11/01/16
+Language Learning,278,12/01/16
+Language Learning,276,01/01/17
+Language Learning,275,02/01/17
+Language Learning,329,03/01/17
+Language Learning,283,04/01/17
+Language Learning,418,05/01/17
+Language Learning,455,06/01/17
+Language Learning,509,07/01/17
+Language Learning,401,08/01/17
+Language Learning,379,09/01/17
+Language Learning,323,10/01/17
+Language Learning,307,11/01/17
+Language Learning,263,12/01/17
+Language Learning,325,01/01/18
+Language Learning,341,02/01/18
+Language Learning,324,03/01/18
+Language Learning,316,04/01/18
+Language Learning,256,05/01/18
+Language Learning,262,06/01/18
+Language Learning,183,07/01/18
+Language Learning,234,08/01/18
+Language Learning,243,09/01/18
+Language Learning,293,10/01/18
+Language Learning,275,11/01/18
+Language Learning,257,12/01/18
+Language Learning,314,01/01/19
+Language Learning,337,02/01/19
+Language Learning,328,03/01/19
+Language Learning,326,04/01/19
+Language Learning,310,05/01/19
+Language Learning,307,06/01/19
+Language Learning,376,07/01/19
+Language Learning,416,08/01/19
+Language Learning,367,09/01/19
+Language Learning,370,10/01/19
+Language Learning,347,11/01/19
+Language Learning,344,12/01/19
+Language Learning,361,01/01/20
+Language Learning,343,02/01/20
+Language Learning,620,03/01/20
+Language Learning,3015,04/01/20
+Language Learning,4823,05/01/20
+Language Learning,3855,06/01/20
+Language Learning,3584,07/01/20
+Language Learning,3350,08/01/20
+Language Learning,2713,09/01/20
+Language Learning,2402,10/01/20
+Language Learning,1978,11/01/20
+Language Learning,1501,12/01/20
+Language Learning,1222,01/01/21
+Language Learning,1167,02/01/21
+Language Learning,1111,03/01/21
+Language Learning,962,04/01/21
+Language Learning,927,05/01/21
+Language Learning,1409,06/01/21
+Language Learning,1047,07/01/21
+Language Learning,1222,08/01/21
+Language Learning,1132,09/01/21
+Language Learning,57,10/01/21
+Personal Development,91,08/01/15
+Personal Development,119,09/01/15
+Personal Development,104,10/01/15
+Personal Development,105,11/01/15
+Personal Development,97,12/01/15
+Personal Development,120,01/01/16
+Personal Development,132,02/01/16
+Personal Development,116,03/01/16
+Personal Development,95,04/01/16
+Personal Development,63,05/01/16
+Personal Development,110,06/01/16
+Personal Development,92,07/01/16
+Personal Development,94,08/01/16
+Personal Development,128,09/01/16
+Personal Development,156,10/01/16
+Personal Development,155,11/01/16
+Personal Development,132,12/01/16
+Personal Development,140,01/01/17
+Personal Development,122,02/01/17
+Personal Development,136,03/01/17
+Personal Development,149,04/01/17
+Personal Development,284,05/01/17
+Personal Development,346,06/01/17
+Personal Development,343,07/01/17
+Personal Development,319,08/01/17
+Personal Development,311,09/01/17
+Personal Development,233,10/01/17
+Personal Development,215,11/01/17
+Personal Development,193,12/01/17
+Personal Development,192,01/01/18
+Personal Development,205,02/01/18
+Personal Development,246,03/01/18
+Personal Development,202,04/01/18
+Personal Development,203,05/01/18
+Personal Development,216,06/01/18
+Personal Development,91,07/01/18
+Personal Development,128,08/01/18
+Personal Development,118,09/01/18
+Personal Development,116,10/01/18
+Personal Development,98,11/01/18
+Personal Development,119,12/01/18
+Personal Development,177,01/01/19
+Personal Development,396,02/01/19
+Personal Development,377,03/01/19
+Personal Development,324,04/01/19
+Personal Development,324,05/01/19
+Personal Development,352,06/01/19
+Personal Development,422,07/01/19
+Personal Development,451,08/01/19
+Personal Development,394,09/01/19
+Personal Development,504,10/01/19
+Personal Development,409,11/01/19
+Personal Development,438,12/01/19
+Personal Development,499,01/01/20
+Personal Development,453,02/01/20
+Personal Development,792,03/01/20
+Personal Development,3414,04/01/20
+Personal Development,5720,05/01/20
+Personal Development,5556,06/01/20
+Personal Development,4529,07/01/20
+Personal Development,3385,08/01/20
+Personal Development,2637,09/01/20
+Personal Development,2214,10/01/20
+Personal Development,1824,11/01/20
+Personal Development,1507,12/01/20
+Personal Development,1215,01/01/21
+Personal Development,993,02/01/21
+Personal Development,998,03/01/21
+Personal Development,934,04/01/21
+Personal Development,840,05/01/21
+Personal Development,781,06/01/21
+Personal Development,820,07/01/21
+Personal Development,632,08/01/21
+Personal Development,650,09/01/21
+Personal Development,47,10/01/21
+Health,433,08/01/15
+Health,494,09/01/15
+Health,520,10/01/15
+Health,466,11/01/15
+Health,396,12/01/15
+Health,624,01/01/16
+Health,615,02/01/16
+Health,557,03/01/16
+Health,398,04/01/16
+Health,401,05/01/16
+Health,508,06/01/16
+Health,286,07/01/16
+Health,427,08/01/16
+Health,440,09/01/16
+Health,619,10/01/16
+Health,636,11/01/16
+Health,519,12/01/16
+Health,550,01/01/17
+Health,519,02/01/17
+Health,573,03/01/17
+Health,694,04/01/17
+Health,816,05/01/17
+Health,934,06/01/17
+Health,1088,07/01/17
+Health,994,08/01/17
+Health,905,09/01/17
+Health,792,10/01/17
+Health,701,11/01/17
+Health,575,12/01/17
+Health,748,01/01/18
+Health,678,02/01/18
+Health,782,03/01/18
+Health,722,04/01/18
+Health,687,05/01/18
+Health,616,06/01/18
+Health,441,07/01/18
+Health,484,08/01/18
+Health,545,09/01/18
+Health,439,10/01/18
+Health,459,11/01/18
+Health,488,12/01/18
+Health,705,01/01/19
+Health,842,02/01/19
+Health,1016,03/01/19
+Health,751,04/01/19
+Health,809,05/01/19
+Health,803,06/01/19
+Health,989,07/01/19
+Health,1033,08/01/19
+Health,898,09/01/19
+Health,998,10/01/19
+Health,931,11/01/19
+Health,806,12/01/19
+Health,917,01/01/20
+Health,889,02/01/20
+Health,1573,03/01/20
+Health,6271,04/01/20
+Health,9350,05/01/20
+Health,8001,06/01/20
+Health,7650,07/01/20
+Health,7632,08/01/20
+Health,6722,09/01/20
+Health,5076,10/01/20
+Health,5049,11/01/20
+Health,3538,12/01/20
+Health,3266,01/01/21
+Health,2738,02/01/21
+Health,2549,03/01/21
+Health,2328,04/01/21
+Health,2158,05/01/21
+Health,1896,06/01/21
+Health,2673,07/01/21
+Health,1915,08/01/21
+Health,1671,09/01/21
+Health,98,10/01/21
+Business,407,08/01/15
+Business,597,09/01/15
+Business,664,10/01/15
+Business,559,11/01/15
+Business,830,12/01/15
+Business,829,01/01/16
+Business,1236,02/01/16
+Business,1068,03/01/16
+Business,754,04/01/16
+Business,794,05/01/16
+Business,998,06/01/16
+Business,477,07/01/16
+Business,857,08/01/16
+Business,918,09/01/16
+Business,1245,10/01/16
+Business,1098,11/01/16
+Business,913,12/01/16
+Business,1016,01/01/17
+Business,875,02/01/17
+Business,998,03/01/17
+Business,945,04/01/17
+Business,1240,05/01/17
+Business,1521,06/01/17
+Business,1523,07/01/17
+Business,1592,08/01/17
+Business,1487,09/01/17
+Business,1276,10/01/17
+Business,1164,11/01/17
+Business,981,12/01/17
+Business,1160,01/01/18
+Business,1127,02/01/18
+Business,1225,03/01/18
+Business,1115,04/01/18
+Business,1079,05/01/18
+Business,1050,06/01/18
+Business,860,07/01/18
+Business,1061,08/01/18
+Business,1035,09/01/18
+Business,1176,10/01/18
+Business,1059,11/01/18
+Business,991,12/01/18
+Business,1208,01/01/19
+Business,1456,02/01/19
+Business,2005,03/01/19
+Business,1511,04/01/19
+Business,1663,05/01/19
+Business,1624,06/01/19
+Business,1937,07/01/19
+Business,1920,08/01/19
+Business,1921,09/01/19
+Business,1822,10/01/19
+Business,1774,11/01/19
+Business,1752,12/01/19
+Business,1779,01/01/20
+Business,1742,02/01/20
+Business,2750,03/01/20
+Business,10038,04/01/20
+Business,15160,05/01/20
+Business,12631,06/01/20
+Business,12102,07/01/20
+Business,9835,08/01/20
+Business,8768,09/01/20
+Business,7019,10/01/20
+Business,6248,11/01/20
+Business,4926,12/01/20
+Business,4114,01/01/21
+Business,3682,02/01/21
+Business,3931,03/01/21
+Business,4268,04/01/21
+Business,3930,05/01/21
+Business,3250,06/01/21
+Business,3558,07/01/21
+Business,3632,08/01/21
+Business,3477,09/01/21
+Business,209,10/01/21
+Art and Humanity,242,08/01/15
+Art and Humanity,319,09/01/15
+Art and Humanity,428,10/01/15
+Art and Humanity,476,11/01/15
+Art and Humanity,416,12/01/15
+Art and Humanity,530,01/01/16
+Art and Humanity,586,02/01/16
+Art and Humanity,786,03/01/16
+Art and Humanity,508,04/01/16
+Art and Humanity,421,05/01/16
+Art and Humanity,554,06/01/16
+Art and Humanity,267,07/01/16
+Art and Humanity,489,08/01/16
+Art and Humanity,505,09/01/16
+Art and Humanity,534,10/01/16
+Art and Humanity,563,11/01/16
+Art and Humanity,498,12/01/16
+Art and Humanity,547,01/01/17
+Art and Humanity,461,02/01/17
+Art and Humanity,475,03/01/17
+Art and Humanity,407,04/01/17
+Art and Humanity,557,05/01/17
+Art and Humanity,691,06/01/17
+Art and Humanity,696,07/01/17
+Art and Humanity,696,08/01/17
+Art and Humanity,598,09/01/17
+Art and Humanity,532,10/01/17
+Art and Humanity,498,11/01/17
+Art and Humanity,455,12/01/17
+Art and Humanity,536,01/01/18
+Art and Humanity,532,02/01/18
+Art and Humanity,550,03/01/18
+Art and Humanity,464,04/01/18
+Art and Humanity,446,05/01/18
+Art and Humanity,366,06/01/18
+Art and Humanity,273,07/01/18
+Art and Humanity,318,08/01/18
+Art and Humanity,319,09/01/18
+Art and Humanity,372,10/01/18
+Art and Humanity,363,11/01/18
+Art and Humanity,316,12/01/18
+Art and Humanity,460,01/01/19
+Art and Humanity,469,02/01/19
+Art and Humanity,539,03/01/19
+Art and Humanity,456,04/01/19
+Art and Humanity,461,05/01/19
+Art and Humanity,446,06/01/19
+Art and Humanity,447,07/01/19
+Art and Humanity,423,08/01/19
+Art and Humanity,409,09/01/19
+Art and Humanity,443,10/01/19
+Art and Humanity,435,11/01/19
+Art and Humanity,437,12/01/19
+Art and Humanity,476,01/01/20
+Art and Humanity,439,02/01/20
+Art and Humanity,665,03/01/20
+Art and Humanity,1945,04/01/20
+Art and Humanity,3437,05/01/20
+Art and Humanity,3006,06/01/20
+Art and Humanity,2944,07/01/20
+Art and Humanity,2534,08/01/20
+Art and Humanity,2216,09/01/20
+Art and Humanity,2110,10/01/20
+Art and Humanity,2282,11/01/20
+Art and Humanity,1531,12/01/20
+Art and Humanity,1308,01/01/21
+Art and Humanity,1224,02/01/21
+Art and Humanity,1231,03/01/21
+Art and Humanity,1034,04/01/21
+Art and Humanity,923,05/01/21
+Art and Humanity,840,06/01/21
+Art and Humanity,950,07/01/21
+Art and Humanity,982,08/01/21
+Art and Humanity,962,09/01/21
+Art and Humanity,53,10/01/21
+Data Science,26,08/01/15
+Data Science,75,09/01/15
+Data Science,210,10/01/15
+Data Science,289,11/01/15
+Data Science,464,12/01/15
+Data Science,761,01/01/16
+Data Science,1277,02/01/16
+Data Science,1066,03/01/16
+Data Science,663,04/01/16
+Data Science,638,05/01/16
+Data Science,818,06/01/16
+Data Science,419,07/01/16
+Data Science,781,08/01/16
+Data Science,674,09/01/16
+Data Science,1015,10/01/16
+Data Science,1067,11/01/16
+Data Science,965,12/01/16
+Data Science,1045,01/01/17
+Data Science,963,02/01/17
+Data Science,968,03/01/17
+Data Science,927,04/01/17
+Data Science,1147,05/01/17
+Data Science,1472,06/01/17
+Data Science,1637,07/01/17
+Data Science,1960,08/01/17
+Data Science,1987,09/01/17
+Data Science,1990,10/01/17
+Data Science,2082,11/01/17
+Data Science,1799,12/01/17
+Data Science,1655,01/01/18
+Data Science,1826,02/01/18
+Data Science,1876,03/01/18
+Data Science,1678,04/01/18
+Data Science,1576,05/01/18
+Data Science,1599,06/01/18
+Data Science,1565,07/01/18
+Data Science,1562,08/01/18
+Data Science,1686,09/01/18
+Data Science,1723,10/01/18
+Data Science,1673,11/01/18
+Data Science,1628,12/01/18
+Data Science,2016,01/01/19
+Data Science,1954,02/01/19
+Data Science,2323,03/01/19
+Data Science,1912,04/01/19
+Data Science,2163,05/01/19
+Data Science,2434,06/01/19
+Data Science,2764,07/01/19
+Data Science,2749,08/01/19
+Data Science,2614,09/01/19
+Data Science,2476,10/01/19
+Data Science,2561,11/01/19
+Data Science,2856,12/01/19
+Data Science,3301,01/01/20
+Data Science,2942,02/01/20
+Data Science,3909,03/01/20
+Data Science,8833,04/01/20
+Data Science,11682,05/01/20
+Data Science,9494,06/01/20
+Data Science,8645,07/01/20
+Data Science,6928,08/01/20
+Data Science,5503,09/01/20
+Data Science,4507,10/01/20
+Data Science,3655,11/01/20
+Data Science,3260,12/01/20
+Data Science,2986,01/01/21
+Data Science,2670,02/01/21
+Data Science,3163,03/01/21
+Data Science,3871,04/01/21
+Data Science,3705,05/01/21
+Data Science,3440,06/01/21
+Data Science,3679,07/01/21
+Data Science,3429,08/01/21
+Data Science,3229,09/01/21
+Data Science,201,10/01/21

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<style>
+svg{
+    text-align:center;
+}
+  .countries {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  .legendThreshold {
+      font-size: 12px;
+      font-family: sans-serif;
+  }
+  .caption {
+      fill: #000;
+      text-anchor: start;
+      font-weight: bold;
+  }
+  .graph-title {
+    font-family: Roboto, sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #333;
+  }
+
+  .graph-subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #555;
+  }
+  .details {
+    font-family: Roboto, sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px;
+  }
+  .tooptip_num{
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 0.85em;
+  }
+  .tooptip_word{
+    font-family: Roboto, sans-serif;
+    font-size: 0.85em;
+  }
+</style>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="graph-title">Distribution of Online Education Resources on Coursera</div>
+        <div class="graph-subtitle">2015 - 2021</div>
+        <div class="details">With its primary language (English) being the most popular language on coursera and one of its main languages (Spanish) being the second,<br> the US has the most coursera course resources.</div>
+    </div>
+    <svg width="960" height="500"></svg>
+
+<script>
+    var margin = {top:0, right:20, bottom:200, left:200};
+    // var width = 1200 - margin.left - margin.right;
+    // var height = 480 - margin.top - margin.bottom;
+    // svg = d3.select("#chart")
+    //     .append("svg")
+    //     .attr("width", width + margin.left + margin.right)
+    //     .attr("height", height + margin.top + margin.bottom)
+    //     .append("g")
+    //     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+// The svg
+var svg = d3.select("svg")
+.attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+// Map and projection
+var path = d3.geoPath();
+var projection = d3.geoNaturalEarth()
+    .scale(width / 2 / Math.PI)
+    .translate([width / 2, height / 2])
+var path = d3.geoPath()
+    .projection(projection);
+
+// Data and color scale
+var data = d3.map();
+var colorScheme = d3.schemePuBu[6];
+colorScheme.unshift("#eee")
+var colorScale = d3.scaleThreshold()
+    .domain([1, 11, 101, 501, 1001, 3001])
+    .range(colorScheme);
+
+// tooltip
+var tooltip = d3.select("body")
+                .append("div")
+                .attr("class", "remove")
+                .style("position", "absolute")
+                .style("z-index", "20")
+                .style("visibility", "hidden")
+                .style("top", "auto")
+                .style("left", "auto");
+
+// Legend
+var g = svg.append("g")
+    .attr("class", "legendThreshold")
+    .attr("transform", "translate(20,20)");
+g.append("text")
+    .attr("class", "caption")
+    .attr("x", 0)
+    .attr("y", -6)
+    .attr("font-size","1.1em")
+    .text("# Available Courses");
+var labels = ['0', '1-10', '11-100', '101-500', '501-1000', '1001-3000', '> 3000'];
+var legend = d3.legendColor()
+    .labels(function (d) { return labels[d.i]; })
+    .shapePadding(4)
+    .scale(colorScale);
+svg.select(".legendThreshold")
+    .call(legend)
+    .attr("transform", "translate(30,50)");
+
+// Load external data and boot
+d3.queue()
+    .defer(d3.json, "world.geojson")
+    .defer(d3.csv, "world_course.csv", function(d) { data.set(d.code, d.total); })
+    .await(ready);
+
+function ready(error, topo) {
+    if (error) throw error;
+
+    let mouseOver = function(d) {
+        mouse = d3.mouse(this);
+        mousex = mouse[0];
+        mousey = mouse[1];
+      d3.selectAll(".Country")
+        .transition()
+        .duration(200)
+        .style("opacity", .5)
+      d3.select(this)
+        .transition()
+        .duration(200)
+        .style("opacity", 1)
+        .style("stroke", "black")
+        tooltip.html("<p><span class='tooptip_num'>" + d.total + "</span> <span class='tooptip_word'>courses</span></p>").style("visibility", "visible")
+                .style("left", mousex+150+"px")
+                .style("top", mousey+50+"px");
+    }
+    let mouseLeave = function(d) {
+      d3.selectAll(".Country")
+        .transition()
+        .duration(200)
+        .style("opacity", .8)
+      d3.select(this)
+        .transition()
+        .duration(200)
+        .style("stroke", "transparent"), tooltip.html("<p>" + d.total + "</p>").style("visibility", "hidden");
+    }
+
+    // Draw the map
+    svg.append("g")
+        .attr("class", "countries")
+        .selectAll("path")
+        .data(topo.features)
+        .enter().append("path")
+            .attr("fill", function (d){
+                // Pull data for this country
+                d.total = data.get(d.id) || 0;
+                // Set the color
+                return colorScale(d.total);
+            })
+            .attr("d", path)
+            .style("stroke", "transparent")
+            .attr("class", function(d){ return "Country" } )
+            .style("opacity", .8)
+            .on("mouseover", mouseOver )
+            .on("mouseleave", mouseLeave )
+}
+</script>
+</body>
